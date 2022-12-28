@@ -52,7 +52,7 @@ def get_test_train(path: str, shape):
   x = []
   y = []
   classes = [int(c) for c in os.listdir(path)]
-  red =  1 if min(classes) == 1 else 0
+  
 
   for classe in classes:
     files = os.listdir(Path(f"{path}/{classe}"))
@@ -63,7 +63,7 @@ def get_test_train(path: str, shape):
       image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB) # padrão rgb
       image = image / 255 # já fazendo um tratamento prévio (ainda n sei se é bom)
       x.append(image) # adicionando ao dataset
-      y.append(classe - red) # adicionando a classe
+      y.append(classe) # adicionando a classe
 
   return x, y
 
@@ -71,7 +71,7 @@ def get_n_class(path: str):
   """
   Pegar número de classes
   """
-  return len(os.listdir(Path(path)))
+  return max([int(c) for c in os.listdir(path)]) + 1
 
 
 

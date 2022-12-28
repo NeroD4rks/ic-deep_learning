@@ -1,0 +1,2015 @@
+12/12/2022 10:38:20 PM 
+
+Analisando e processando ***ACSF1*** do CWT-BINARY
+12/12/2022 10:38:35 PM Iniciando preprocess, x_train
+12/12/2022 10:38:37 PM Iniciando preprocess, x_test
+12/12/2022 10:38:38 PM Executando modelo densenet
+12/12/2022 10:39:25 PM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+12/12/2022 10:39:25 PM Executando modelo googlenet
+12/12/2022 10:42:31 PM Terminou de executar o modelo: googlenet
+resultado obtido: 0.11999999731779099
+12/12/2022 10:42:31 PM Executando modelo vgg16_tf
+12/12/2022 10:43:43 PM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.10000000149011612
+12/12/2022 10:43:43 PM Executando modelo resnet50_tf
+12/12/2022 10:45:29 PM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.10000000149011612
+12/12/2022 10:45:29 PM Executando modelo alexnet
+12/12/2022 10:46:05 PM Terminou de executar o modelo: alexnet
+resultado obtido: 0.10000000149011612
+12/12/2022 10:46:05 PM Executando modelo vgg
+14/12/2022 12:06:01 AM 
+
+Analisando e processando ***ACSF1*** do CWT-BINARY
+14/12/2022 12:06:15 AM Iniciando preprocess, x_train
+14/12/2022 12:06:20 AM Iniciando preprocess, x_test
+14/12/2022 12:06:20 AM Executando modelo densenet
+14/12/2022 12:07:49 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+14/12/2022 12:07:49 AM Executando modelo googlenet
+14/12/2022 12:24:30 AM 
+
+Analisando e processando ***ACSF1*** do CWT-BINARY
+14/12/2022 12:24:38 AM Iniciando preprocess, x_train
+14/12/2022 12:24:39 AM Iniciando preprocess, x_test
+14/12/2022 12:24:40 AM Executando modelo densenet
+14/12/2022 12:24:54 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+14/12/2022 12:24:54 AM Executando modelo googlenet
+14/12/2022 12:25:54 AM 
+
+Analisando e processando ***ACSF1*** do CWT-BINARY
+14/12/2022 12:26:03 AM Iniciando preprocess, x_train
+14/12/2022 12:26:05 AM Iniciando preprocess, x_test
+14/12/2022 12:26:05 AM Executando modelo densenet
+14/12/2022 12:26:19 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+14/12/2022 12:26:19 AM Executando modelo vgg16_tf
+14/12/2022 12:26:50 AM 
+
+Analisando e processando ***ACSF1*** do CWT-BINARY
+14/12/2022 12:26:58 AM Iniciando preprocess, x_train
+14/12/2022 12:26:59 AM Iniciando preprocess, x_test
+14/12/2022 12:26:59 AM Executando modelo densenet
+14/12/2022 12:27:09 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+14/12/2022 12:27:09 AM Executando modelo vgg16_tf
+14/12/2022 12:27:21 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.10000000149011612
+14/12/2022 12:27:21 AM Executando modelo resnet50_tf
+14/12/2022 12:27:51 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.10000000149011612
+14/12/2022 12:27:51 AM Executando modelo alexnet
+14/12/2022 12:28:09 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.10000000149011612
+14/12/2022 12:28:09 AM Executando modelo vgg
+14/12/2022 12:28:22 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.10000000149011612
+14/12/2022 12:28:22 AM 
+
+Analisando e processando ***Adiac*** do CWT-BINARY
+14/12/2022 12:28:29 AM Iniciando preprocess, x_train
+14/12/2022 12:28:30 AM Iniciando preprocess, x_test
+14/12/2022 12:28:31 AM Executando modelo densenet
+14/12/2022 12:28:47 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.03069053776562214
+14/12/2022 12:28:47 AM Executando modelo vgg16_tf
+14/12/2022 12:29:13 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.017902813851833344
+14/12/2022 12:29:13 AM Executando modelo resnet50_tf
+14/12/2022 12:29:58 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.03324808180332184
+14/12/2022 12:29:58 AM Executando modelo alexnet
+14/12/2022 12:30:05 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.020460357889533043
+14/12/2022 12:30:05 AM Executando modelo vgg
+14/12/2022 12:30:22 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.017902813851833344
+14/12/2022 12:30:22 AM 
+
+Analisando e processando ***AllGestureWiimoteX*** do CWT-BINARY
+14/12/2022 12:30:32 AM Iniciando preprocess, x_train
+14/12/2022 12:30:33 AM Iniciando preprocess, x_test
+14/12/2022 12:30:34 AM Executando modelo densenet
+14/12/2022 12:30:46 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+14/12/2022 12:30:46 AM Executando modelo vgg16_tf
+14/12/2022 12:31:13 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.10000000149011612
+14/12/2022 12:31:13 AM Executando modelo resnet50_tf
+14/12/2022 12:31:58 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.10000000149011612
+14/12/2022 12:31:58 AM Executando modelo alexnet
+14/12/2022 12:32:04 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.10000000149011612
+14/12/2022 12:32:04 AM Executando modelo vgg
+14/12/2022 12:32:20 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.10000000149011612
+14/12/2022 12:32:20 AM 
+
+Analisando e processando ***AllGestureWiimoteY*** do CWT-BINARY
+14/12/2022 12:32:28 AM Iniciando preprocess, x_train
+14/12/2022 12:32:29 AM Iniciando preprocess, x_test
+14/12/2022 12:32:30 AM Executando modelo densenet
+14/12/2022 12:32:42 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+14/12/2022 12:32:42 AM Executando modelo vgg16_tf
+14/12/2022 12:33:07 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.10000000149011612
+14/12/2022 12:33:07 AM Executando modelo resnet50_tf
+14/12/2022 12:33:52 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.10000000149011612
+14/12/2022 12:33:52 AM Executando modelo alexnet
+14/12/2022 12:33:58 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.10000000149011612
+14/12/2022 12:33:58 AM Executando modelo vgg
+14/12/2022 12:34:13 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.10000000149011612
+14/12/2022 12:34:13 AM 
+
+Analisando e processando ***AllGestureWiimoteZ*** do CWT-BINARY
+14/12/2022 12:34:19 AM Iniciando preprocess, x_train
+14/12/2022 12:34:20 AM Iniciando preprocess, x_test
+14/12/2022 12:34:21 AM Executando modelo densenet
+14/12/2022 12:34:33 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+14/12/2022 12:34:33 AM Executando modelo vgg16_tf
+14/12/2022 12:34:58 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.10000000149011612
+14/12/2022 12:34:58 AM Executando modelo resnet50_tf
+14/12/2022 12:35:43 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.10000000149011612
+14/12/2022 12:35:43 AM Executando modelo alexnet
+14/12/2022 12:35:50 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.10000000149011612
+14/12/2022 12:35:50 AM Executando modelo vgg
+14/12/2022 12:36:06 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.10000000149011612
+14/12/2022 12:36:06 AM 
+
+Analisando e processando ***ArrowHead*** do CWT-BINARY
+14/12/2022 12:36:07 AM Iniciando preprocess, x_train
+14/12/2022 12:36:07 AM Iniciando preprocess, x_test
+14/12/2022 12:36:08 AM Executando modelo densenet
+14/12/2022 12:36:16 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.3028571307659149
+14/12/2022 12:36:16 AM Executando modelo vgg16_tf
+14/12/2022 12:36:25 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.3942857086658478
+14/12/2022 12:36:25 AM Executando modelo resnet50_tf
+14/12/2022 12:36:49 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.3028571307659149
+14/12/2022 12:36:49 AM Executando modelo alexnet
+14/12/2022 12:36:52 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.3942857086658478
+14/12/2022 12:36:52 AM Executando modelo vgg
+14/12/2022 12:36:59 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.3942857086658478
+14/12/2022 12:36:59 AM 
+
+Analisando e processando ***Beef*** do CWT-BINARY
+14/12/2022 12:36:59 AM Iniciando preprocess, x_train
+14/12/2022 12:36:59 AM Iniciando preprocess, x_test
+14/12/2022 12:36:59 AM Executando modelo densenet
+14/12/2022 12:37:05 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.20000000298023224
+14/12/2022 12:37:05 AM Executando modelo vgg16_tf
+14/12/2022 12:37:13 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.20000000298023224
+14/12/2022 12:37:13 AM Executando modelo resnet50_tf
+14/12/2022 12:37:39 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.20000000298023224
+14/12/2022 12:37:39 AM Executando modelo alexnet
+14/12/2022 12:37:43 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.20000000298023224
+14/12/2022 12:37:43 AM Executando modelo vgg
+14/12/2022 12:37:51 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.20000000298023224
+14/12/2022 12:37:51 AM 
+
+Analisando e processando ***BeetleFly*** do CWT-BINARY
+14/12/2022 12:37:51 AM Iniciando preprocess, x_train
+14/12/2022 12:37:51 AM Iniciando preprocess, x_test
+14/12/2022 12:37:51 AM Executando modelo densenet
+14/12/2022 12:38:00 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5
+14/12/2022 12:38:00 AM Executando modelo vgg16_tf
+14/12/2022 12:38:08 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5
+14/12/2022 12:38:08 AM Executando modelo resnet50_tf
+14/12/2022 12:38:31 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.5
+14/12/2022 12:38:31 AM Executando modelo alexnet
+14/12/2022 12:38:34 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5
+14/12/2022 12:38:34 AM Executando modelo vgg
+14/12/2022 12:38:40 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5
+14/12/2022 12:38:40 AM 
+
+Analisando e processando ***BirdChicken*** do CWT-BINARY
+14/12/2022 12:38:41 AM Iniciando preprocess, x_train
+14/12/2022 12:38:41 AM Iniciando preprocess, x_test
+14/12/2022 12:38:41 AM Executando modelo densenet
+14/12/2022 12:38:47 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5
+14/12/2022 12:38:47 AM Executando modelo vgg16_tf
+14/12/2022 12:38:53 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5
+14/12/2022 12:38:53 AM Executando modelo resnet50_tf
+14/12/2022 12:39:15 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.5
+14/12/2022 12:39:15 AM Executando modelo alexnet
+14/12/2022 12:39:18 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5
+14/12/2022 12:39:18 AM Executando modelo vgg
+14/12/2022 12:39:24 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5
+14/12/2022 12:39:24 AM 
+
+Analisando e processando ***BME*** do CWT-BINARY
+14/12/2022 12:39:24 AM Iniciando preprocess, x_train
+14/12/2022 12:39:24 AM Iniciando preprocess, x_test
+14/12/2022 12:39:25 AM Executando modelo densenet
+14/12/2022 12:39:33 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.3333333432674408
+14/12/2022 12:39:33 AM Executando modelo vgg16_tf
+14/12/2022 12:39:43 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.3333333432674408
+14/12/2022 12:39:43 AM Executando modelo resnet50_tf
+14/12/2022 12:40:08 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.3333333432674408
+14/12/2022 12:40:08 AM Executando modelo alexnet
+14/12/2022 12:40:11 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.4333333373069763
+14/12/2022 12:40:11 AM Executando modelo vgg
+14/12/2022 12:40:18 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.3333333432674408
+14/12/2022 12:40:18 AM 
+
+Analisando e processando ***Car*** do CWT-BINARY
+14/12/2022 12:40:19 AM Iniciando preprocess, x_train
+14/12/2022 12:40:19 AM Iniciando preprocess, x_test
+14/12/2022 12:40:20 AM Executando modelo densenet
+14/12/2022 12:40:27 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.21666666865348816
+14/12/2022 12:40:27 AM Executando modelo vgg16_tf
+14/12/2022 12:40:36 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.21666666865348816
+14/12/2022 12:40:36 AM Executando modelo resnet50_tf
+14/12/2022 12:40:59 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.21666666865348816
+14/12/2022 12:40:59 AM Executando modelo alexnet
+14/12/2022 12:41:03 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.21666666865348816
+14/12/2022 12:41:03 AM Executando modelo vgg
+14/12/2022 12:41:09 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.21666666865348816
+14/12/2022 12:41:09 AM 
+
+Analisando e processando ***CBF*** do CWT-BINARY
+14/12/2022 12:41:12 AM Iniciando preprocess, x_train
+14/12/2022 12:41:12 AM Iniciando preprocess, x_test
+14/12/2022 12:41:14 AM Executando modelo densenet
+14/12/2022 12:41:25 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.3311111032962799
+14/12/2022 12:41:25 AM Executando modelo vgg16_tf
+14/12/2022 12:41:43 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.3333333432674408
+14/12/2022 12:41:43 AM Executando modelo resnet50_tf
+14/12/2022 12:42:21 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.3333333432674408
+14/12/2022 12:42:21 AM Executando modelo alexnet
+14/12/2022 12:42:27 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.3311111032962799
+14/12/2022 12:42:27 AM Executando modelo vgg
+14/12/2022 12:42:48 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.3311111032962799
+14/12/2022 12:42:48 AM 
+
+Analisando e processando ***Chinatown*** do CWT-BINARY
+14/12/2022 12:42:52 AM Iniciando preprocess, x_train
+14/12/2022 12:42:52 AM Iniciando preprocess, x_test
+14/12/2022 12:42:56 AM Executando modelo densenet
+14/12/2022 12:43:15 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.7259474992752075
+14/12/2022 12:43:15 AM Executando modelo vgg16_tf
+14/12/2022 12:43:36 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.2740524709224701
+14/12/2022 12:43:36 AM Executando modelo resnet50_tf
+14/12/2022 12:44:04 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.7259474992752075
+14/12/2022 12:44:04 AM Executando modelo alexnet
+14/12/2022 12:44:08 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.7259474992752075
+14/12/2022 12:44:08 AM Executando modelo vgg
+14/12/2022 12:44:16 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.2740524709224701
+14/12/2022 12:44:16 AM 
+
+Analisando e processando ***CinCECGTorso*** do CWT-BINARY
+14/12/2022 12:45:49 AM Iniciando preprocess, x_train
+14/12/2022 12:45:49 AM Iniciando preprocess, x_test
+14/12/2022 12:45:52 AM Executando modelo densenet
+14/12/2022 12:46:07 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.24782608449459076
+14/12/2022 12:46:07 AM Executando modelo vgg16_tf
+14/12/2022 12:46:33 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.24782608449459076
+14/12/2022 12:46:33 AM Executando modelo resnet50_tf
+14/12/2022 12:47:20 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.24782608449459076
+14/12/2022 12:47:20 AM Executando modelo alexnet
+14/12/2022 12:47:27 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.24782608449459076
+14/12/2022 12:47:27 AM Executando modelo vgg
+14/12/2022 12:47:43 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.24782608449459076
+14/12/2022 12:47:43 AM 
+
+Analisando e processando ***Coffee*** do CWT-BINARY
+14/12/2022 12:47:43 AM Iniciando preprocess, x_train
+14/12/2022 12:47:43 AM Iniciando preprocess, x_test
+14/12/2022 12:47:43 AM Executando modelo densenet
+14/12/2022 12:47:49 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.4642857015132904
+14/12/2022 12:47:49 AM Executando modelo vgg16_tf
+14/12/2022 12:47:55 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5357142686843872
+14/12/2022 12:47:55 AM Executando modelo resnet50_tf
+14/12/2022 12:48:16 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.5357142686843872
+14/12/2022 12:48:16 AM Executando modelo alexnet
+14/12/2022 12:48:19 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.4642857015132904
+14/12/2022 12:48:19 AM Executando modelo vgg
+14/12/2022 12:48:25 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.4642857015132904
+14/12/2022 12:48:25 AM 
+
+Analisando e processando ***Computers*** do CWT-BINARY
+14/12/2022 12:48:32 AM Iniciando preprocess, x_train
+14/12/2022 12:48:33 AM Iniciando preprocess, x_test
+14/12/2022 12:48:33 AM Executando modelo densenet
+14/12/2022 12:48:45 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5
+14/12/2022 12:48:45 AM Executando modelo vgg16_tf
+14/12/2022 12:49:05 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5
+14/12/2022 12:49:05 AM Executando modelo resnet50_tf
+14/12/2022 12:49:42 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.5
+14/12/2022 12:49:42 AM Executando modelo alexnet
+14/12/2022 12:49:48 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5
+14/12/2022 12:49:48 AM Executando modelo vgg
+14/12/2022 12:50:01 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5
+14/12/2022 12:50:01 AM 
+
+Analisando e processando ***CricketX*** do CWT-BINARY
+14/12/2022 12:50:05 AM Iniciando preprocess, x_train
+14/12/2022 12:50:05 AM Iniciando preprocess, x_test
+14/12/2022 12:50:06 AM Executando modelo densenet
+14/12/2022 12:50:20 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.07692307978868484
+14/12/2022 12:50:20 AM Executando modelo vgg16_tf
+14/12/2022 12:50:46 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.07948718219995499
+14/12/2022 12:50:46 AM Executando modelo resnet50_tf
+14/12/2022 12:51:34 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.06923077255487442
+14/12/2022 12:51:34 AM Executando modelo alexnet
+14/12/2022 12:51:41 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.06666667014360428
+14/12/2022 12:51:41 AM Executando modelo vgg
+14/12/2022 12:51:57 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.06666667014360428
+14/12/2022 12:51:57 AM 
+
+Analisando e processando ***CricketY*** do CWT-BINARY
+14/12/2022 12:52:01 AM Iniciando preprocess, x_train
+14/12/2022 12:52:02 AM Iniciando preprocess, x_test
+14/12/2022 12:52:02 AM Executando modelo densenet
+14/12/2022 12:52:15 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.08717948943376541
+14/12/2022 12:52:15 AM Executando modelo vgg16_tf
+14/12/2022 12:52:42 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0743589773774147
+14/12/2022 12:52:42 AM Executando modelo resnet50_tf
+14/12/2022 12:53:30 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.07948718219995499
+14/12/2022 12:53:30 AM Executando modelo alexnet
+14/12/2022 12:53:39 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.0743589773774147
+14/12/2022 12:53:39 AM Executando modelo vgg
+14/12/2022 12:53:56 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.0743589773774147
+14/12/2022 12:53:56 AM 
+
+Analisando e processando ***CricketZ*** do CWT-BINARY
+14/12/2022 12:54:03 AM Iniciando preprocess, x_train
+14/12/2022 12:54:04 AM Iniciando preprocess, x_test
+14/12/2022 12:54:05 AM Executando modelo densenet
+14/12/2022 12:54:21 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.0923076942563057
+14/12/2022 12:54:21 AM Executando modelo vgg16_tf
+14/12/2022 12:54:50 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0615384615957737
+14/12/2022 12:54:50 AM Executando modelo resnet50_tf
+14/12/2022 12:55:43 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0743589773774147
+14/12/2022 12:55:43 AM Executando modelo alexnet
+14/12/2022 12:55:50 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.0615384615957737
+14/12/2022 12:55:50 AM Executando modelo vgg
+14/12/2022 12:56:09 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.0615384615957737
+14/12/2022 12:56:09 AM 
+
+Analisando e processando ***DiatomSizeReduction*** do CWT-BINARY
+14/12/2022 12:56:10 AM Iniciando preprocess, x_train
+14/12/2022 12:56:11 AM Iniciando preprocess, x_test
+14/12/2022 12:56:11 AM Executando modelo densenet
+14/12/2022 12:56:21 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.28431373834609985
+14/12/2022 12:56:21 AM Executando modelo vgg16_tf
+14/12/2022 12:56:35 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.3006536066532135
+14/12/2022 12:56:35 AM Executando modelo resnet50_tf
+14/12/2022 12:57:09 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.3006536066532135
+14/12/2022 12:57:09 AM Executando modelo alexnet
+14/12/2022 12:57:15 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.3006536066532135
+14/12/2022 12:57:15 AM Executando modelo vgg
+14/12/2022 12:57:25 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.30718955397605896
+14/12/2022 12:57:25 AM 
+
+Analisando e processando ***DistalPhalanxOutlineAgeGroup*** do CWT-BINARY
+14/12/2022 12:57:26 AM Iniciando preprocess, x_train
+14/12/2022 12:57:27 AM Iniciando preprocess, x_test
+14/12/2022 12:57:27 AM Executando modelo densenet
+14/12/2022 12:57:42 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.4676258862018585
+14/12/2022 12:57:42 AM Executando modelo vgg16_tf
+14/12/2022 12:58:13 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.4676258862018585
+14/12/2022 12:58:13 AM Executando modelo resnet50_tf
+14/12/2022 12:59:04 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.10791366547346115
+14/12/2022 12:59:04 AM Executando modelo alexnet
+14/12/2022 12:59:12 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.4676258862018585
+14/12/2022 12:59:12 AM Executando modelo vgg
+14/12/2022 12:59:30 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.4676258862018585
+14/12/2022 12:59:30 AM 
+
+Analisando e processando ***DistalPhalanxOutlineCorrect*** do CWT-BINARY
+14/12/2022 12:59:33 AM Iniciando preprocess, x_train
+14/12/2022 12:59:34 AM Iniciando preprocess, x_test
+14/12/2022 12:59:35 AM Executando modelo densenet
+14/12/2022 12:59:52 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.4166666567325592
+14/12/2022 12:59:52 AM Executando modelo vgg16_tf
+14/12/2022 01:00:30 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5833333134651184
+14/12/2022 01:00:30 AM Executando modelo resnet50_tf
+14/12/2022 01:01:30 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.4166666567325592
+14/12/2022 01:01:30 AM Executando modelo alexnet
+14/12/2022 01:01:39 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5833333134651184
+14/12/2022 01:01:39 AM Executando modelo vgg
+14/12/2022 01:02:01 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5833333134651184
+14/12/2022 01:02:01 AM 
+
+Analisando e processando ***DistalPhalanxTW*** do CWT-BINARY
+14/12/2022 01:02:04 AM Iniciando preprocess, x_train
+14/12/2022 01:02:05 AM Iniciando preprocess, x_test
+14/12/2022 01:02:05 AM Executando modelo densenet
+28/12/2022 09:39:01 AM 
+
+Analisando e processando ***ACSF1*** do CWT-BINARY
+28/12/2022 09:39:14 AM Iniciando preprocess, x_train
+28/12/2022 09:39:17 AM Iniciando preprocess, x_test
+28/12/2022 09:39:17 AM Executando modelo densenet
+28/12/2022 09:39:44 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:39:44 AM Executando modelo googlenet
+28/12/2022 09:40:20 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:40:20 AM Executando modelo vgg16_tf
+28/12/2022 09:40:37 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.10000000149011612
+28/12/2022 09:40:37 AM Executando modelo resnet50_tf
+28/12/2022 09:41:12 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.10000000149011612
+28/12/2022 09:41:12 AM Executando modelo alexnet
+28/12/2022 09:41:19 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:41:19 AM Executando modelo vgg
+28/12/2022 09:41:29 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.10000000149011612
+28/12/2022 09:41:29 AM 
+
+Analisando e processando ***Adiac*** do CWT-BINARY
+28/12/2022 09:41:31 AM Iniciando preprocess, x_train
+28/12/2022 09:41:32 AM Iniciando preprocess, x_test
+28/12/2022 09:41:32 AM Executando modelo densenet
+28/12/2022 09:41:46 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.02557544782757759
+28/12/2022 09:41:46 AM Executando modelo googlenet
+28/12/2022 09:42:48 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.03069053776562214
+28/12/2022 09:42:48 AM Executando modelo vgg16_tf
+28/12/2022 09:43:14 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.03580562770366669
+28/12/2022 09:43:14 AM Executando modelo resnet50_tf
+28/12/2022 09:44:03 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.02557544782757759
+28/12/2022 09:44:03 AM Executando modelo alexnet
+28/12/2022 09:44:12 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.03069053776562214
+28/12/2022 09:44:12 AM Executando modelo vgg
+28/12/2022 09:44:30 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.03069053776562214
+28/12/2022 09:44:30 AM 
+
+Analisando e processando ***AllGestureWiimoteX*** do CWT-BINARY
+28/12/2022 09:44:40 AM Iniciando preprocess, x_train
+28/12/2022 09:44:41 AM Iniciando preprocess, x_test
+28/12/2022 09:44:42 AM Executando modelo densenet
+28/12/2022 09:44:56 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:44:56 AM Executando modelo googlenet
+28/12/2022 09:45:59 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:45:59 AM Executando modelo vgg16_tf
+28/12/2022 09:46:25 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.10000000149011612
+28/12/2022 09:46:25 AM Executando modelo resnet50_tf
+28/12/2022 09:47:13 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.10000000149011612
+28/12/2022 09:47:13 AM Executando modelo alexnet
+28/12/2022 09:47:23 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:47:23 AM Executando modelo vgg
+28/12/2022 09:47:40 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.10000000149011612
+28/12/2022 09:47:40 AM 
+
+Analisando e processando ***AllGestureWiimoteY*** do CWT-BINARY
+28/12/2022 09:47:49 AM Iniciando preprocess, x_train
+28/12/2022 09:47:50 AM Iniciando preprocess, x_test
+28/12/2022 09:47:51 AM Executando modelo densenet
+28/12/2022 09:48:03 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:48:03 AM Executando modelo googlenet
+28/12/2022 09:49:02 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:49:02 AM Executando modelo vgg16_tf
+28/12/2022 09:49:26 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.10000000149011612
+28/12/2022 09:49:26 AM Executando modelo resnet50_tf
+28/12/2022 09:50:14 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.10000000149011612
+28/12/2022 09:50:14 AM Executando modelo alexnet
+28/12/2022 09:50:24 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:50:24 AM Executando modelo vgg
+28/12/2022 09:50:43 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.10000000149011612
+28/12/2022 09:50:43 AM 
+
+Analisando e processando ***AllGestureWiimoteZ*** do CWT-BINARY
+28/12/2022 09:50:51 AM Iniciando preprocess, x_train
+28/12/2022 09:50:52 AM Iniciando preprocess, x_test
+28/12/2022 09:50:53 AM Executando modelo densenet
+28/12/2022 09:51:06 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:51:06 AM Executando modelo googlenet
+28/12/2022 09:52:04 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:52:04 AM Executando modelo vgg16_tf
+28/12/2022 09:52:29 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.10000000149011612
+28/12/2022 09:52:29 AM Executando modelo resnet50_tf
+28/12/2022 09:53:17 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.10000000149011612
+28/12/2022 09:53:17 AM Executando modelo alexnet
+28/12/2022 09:53:26 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.10000000149011612
+28/12/2022 09:53:26 AM Executando modelo vgg
+28/12/2022 09:53:43 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.10000000149011612
+28/12/2022 09:53:43 AM 
+
+Analisando e processando ***ArrowHead*** do CWT-BINARY
+28/12/2022 09:53:44 AM Iniciando preprocess, x_train
+28/12/2022 09:53:44 AM Iniciando preprocess, x_test
+28/12/2022 09:53:44 AM Executando modelo densenet
+28/12/2022 09:53:52 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.3028571307659149
+28/12/2022 09:53:52 AM Executando modelo googlenet
+28/12/2022 09:54:18 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.3028571307659149
+28/12/2022 09:54:18 AM Executando modelo vgg16_tf
+28/12/2022 09:54:30 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.3028571307659149
+28/12/2022 09:54:30 AM Executando modelo resnet50_tf
+28/12/2022 09:54:58 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.3028571307659149
+28/12/2022 09:54:58 AM Executando modelo alexnet
+28/12/2022 09:55:03 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.3028571307659149
+28/12/2022 09:55:03 AM Executando modelo vgg
+28/12/2022 09:55:11 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.3028571307659149
+28/12/2022 09:55:11 AM 
+
+Analisando e processando ***Beef*** do CWT-BINARY
+28/12/2022 09:55:11 AM Iniciando preprocess, x_train
+28/12/2022 09:55:11 AM Iniciando preprocess, x_test
+28/12/2022 09:55:12 AM Executando modelo densenet
+28/12/2022 09:55:18 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.20000000298023224
+28/12/2022 09:55:18 AM Executando modelo googlenet
+28/12/2022 09:55:42 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.20000000298023224
+28/12/2022 09:55:42 AM Executando modelo vgg16_tf
+28/12/2022 09:55:51 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.20000000298023224
+28/12/2022 09:55:51 AM Executando modelo resnet50_tf
+28/12/2022 09:56:15 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.20000000298023224
+28/12/2022 09:56:15 AM Executando modelo alexnet
+28/12/2022 09:56:19 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.20000000298023224
+28/12/2022 09:56:19 AM Executando modelo vgg
+28/12/2022 09:56:30 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.20000000298023224
+28/12/2022 09:56:30 AM 
+
+Analisando e processando ***BeetleFly*** do CWT-BINARY
+28/12/2022 09:56:31 AM Iniciando preprocess, x_train
+28/12/2022 09:56:31 AM Iniciando preprocess, x_test
+28/12/2022 09:56:31 AM Executando modelo densenet
+28/12/2022 09:56:39 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5
+28/12/2022 09:56:39 AM Executando modelo googlenet
+28/12/2022 09:56:59 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.5
+28/12/2022 09:56:59 AM Executando modelo vgg16_tf
+28/12/2022 09:57:07 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5
+28/12/2022 09:57:07 AM Executando modelo resnet50_tf
+28/12/2022 09:57:30 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.5
+28/12/2022 09:57:30 AM Executando modelo alexnet
+28/12/2022 09:57:34 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5
+28/12/2022 09:57:34 AM Executando modelo vgg
+28/12/2022 09:57:41 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5
+28/12/2022 09:57:41 AM 
+
+Analisando e processando ***BirdChicken*** do CWT-BINARY
+28/12/2022 09:57:41 AM Iniciando preprocess, x_train
+28/12/2022 09:57:41 AM Iniciando preprocess, x_test
+28/12/2022 09:57:41 AM Executando modelo densenet
+28/12/2022 09:57:47 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5
+28/12/2022 09:57:47 AM Executando modelo googlenet
+28/12/2022 09:58:06 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.5
+28/12/2022 09:58:06 AM Executando modelo vgg16_tf
+28/12/2022 09:58:14 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5
+28/12/2022 09:58:14 AM Executando modelo resnet50_tf
+28/12/2022 09:58:35 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 09:58:35 AM Executando modelo alexnet
+28/12/2022 09:58:39 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5
+28/12/2022 09:58:39 AM Executando modelo vgg
+28/12/2022 09:58:45 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5
+28/12/2022 09:58:45 AM 
+
+Analisando e processando ***BME*** do CWT-BINARY
+28/12/2022 09:58:45 AM Iniciando preprocess, x_train
+28/12/2022 09:58:46 AM Iniciando preprocess, x_test
+28/12/2022 09:58:46 AM Executando modelo densenet
+28/12/2022 09:58:52 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.3333333432674408
+28/12/2022 09:58:52 AM Executando modelo googlenet
+28/12/2022 09:59:18 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.3333333432674408
+28/12/2022 09:59:18 AM Executando modelo vgg16_tf
+28/12/2022 09:59:29 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.3333333432674408
+28/12/2022 09:59:29 AM Executando modelo resnet50_tf
+28/12/2022 09:59:55 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 09:59:55 AM Executando modelo alexnet
+28/12/2022 09:59:59 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.3333333432674408
+28/12/2022 09:59:59 AM Executando modelo vgg
+28/12/2022 10:00:06 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.3333333432674408
+28/12/2022 10:00:06 AM 
+
+Analisando e processando ***Car*** do CWT-BINARY
+28/12/2022 10:00:08 AM Iniciando preprocess, x_train
+28/12/2022 10:00:08 AM Iniciando preprocess, x_test
+28/12/2022 10:00:08 AM Executando modelo densenet
+28/12/2022 10:00:15 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.23333333432674408
+28/12/2022 10:00:15 AM Executando modelo googlenet
+28/12/2022 10:00:38 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.23333333432674408
+28/12/2022 10:00:38 AM Executando modelo vgg16_tf
+28/12/2022 10:00:48 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.21666666865348816
+28/12/2022 10:00:48 AM Executando modelo resnet50_tf
+28/12/2022 10:01:14 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 10:01:14 AM Executando modelo alexnet
+28/12/2022 10:01:18 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.21666666865348816
+28/12/2022 10:01:18 AM Executando modelo vgg
+28/12/2022 10:01:27 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.23333333432674408
+28/12/2022 10:01:27 AM 
+
+Analisando e processando ***CBF*** do CWT-BINARY
+28/12/2022 10:01:28 AM Iniciando preprocess, x_train
+28/12/2022 10:01:28 AM Iniciando preprocess, x_test
+28/12/2022 10:01:30 AM Executando modelo densenet
+28/12/2022 10:01:40 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.3311111032962799
+28/12/2022 10:01:40 AM Executando modelo googlenet
+28/12/2022 10:02:24 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.3311111032962799
+28/12/2022 10:02:24 AM Executando modelo vgg16_tf
+28/12/2022 10:02:40 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.3311111032962799
+28/12/2022 10:02:40 AM Executando modelo resnet50_tf
+28/12/2022 10:03:16 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 10:03:16 AM Executando modelo alexnet
+28/12/2022 10:03:23 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.3333333432674408
+28/12/2022 10:03:23 AM Executando modelo vgg
+28/12/2022 10:03:35 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.3311111032962799
+28/12/2022 10:03:35 AM 
+
+Analisando e processando ***Chinatown*** do CWT-BINARY
+28/12/2022 10:03:37 AM Iniciando preprocess, x_train
+28/12/2022 10:03:37 AM Iniciando preprocess, x_test
+28/12/2022 10:03:38 AM Executando modelo densenet
+28/12/2022 10:03:46 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.2740524709224701
+28/12/2022 10:03:46 AM Executando modelo googlenet
+28/12/2022 10:04:13 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.0
+28/12/2022 10:04:13 AM Executando modelo vgg16_tf
+28/12/2022 10:04:24 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.2740524709224701
+28/12/2022 10:04:24 AM Executando modelo resnet50_tf
+28/12/2022 10:04:50 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.2740524709224701
+28/12/2022 10:04:50 AM Executando modelo alexnet
+28/12/2022 10:04:56 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.2740524709224701
+28/12/2022 10:04:56 AM Executando modelo vgg
+28/12/2022 10:05:05 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.7259474992752075
+28/12/2022 10:05:05 AM 
+
+Analisando e processando ***CinCECGTorso*** do CWT-BINARY
+28/12/2022 10:06:38 AM Iniciando preprocess, x_train
+28/12/2022 10:06:38 AM Iniciando preprocess, x_test
+28/12/2022 10:06:41 AM Executando modelo densenet
+28/12/2022 10:06:53 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.24782608449459076
+28/12/2022 10:06:53 AM Executando modelo googlenet
+28/12/2022 10:07:51 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.24782608449459076
+28/12/2022 10:07:51 AM Executando modelo vgg16_tf
+28/12/2022 10:08:13 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.25362318754196167
+28/12/2022 10:08:13 AM Executando modelo resnet50_tf
+28/12/2022 10:08:53 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.24855072796344757
+28/12/2022 10:08:53 AM Executando modelo alexnet
+28/12/2022 10:09:01 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.24782608449459076
+28/12/2022 10:09:01 AM Executando modelo vgg
+28/12/2022 10:09:16 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.24782608449459076
+28/12/2022 10:09:16 AM 
+
+Analisando e processando ***Coffee*** do CWT-BINARY
+28/12/2022 10:09:17 AM Iniciando preprocess, x_train
+28/12/2022 10:09:17 AM Iniciando preprocess, x_test
+28/12/2022 10:09:17 AM Executando modelo densenet
+28/12/2022 10:09:24 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5357142686843872
+28/12/2022 10:09:24 AM Executando modelo googlenet
+28/12/2022 10:09:41 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.4642857015132904
+28/12/2022 10:09:41 AM Executando modelo vgg16_tf
+28/12/2022 10:09:49 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5357142686843872
+28/12/2022 10:09:49 AM Executando modelo resnet50_tf
+28/12/2022 10:10:11 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.5357142686843872
+28/12/2022 10:10:11 AM Executando modelo alexnet
+28/12/2022 10:10:17 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5357142686843872
+28/12/2022 10:10:17 AM Executando modelo vgg
+28/12/2022 10:10:23 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.4642857015132904
+28/12/2022 10:10:23 AM 
+
+Analisando e processando ***Computers*** do CWT-BINARY
+28/12/2022 10:10:30 AM Iniciando preprocess, x_train
+28/12/2022 10:10:30 AM Iniciando preprocess, x_test
+28/12/2022 10:10:31 AM Executando modelo densenet
+28/12/2022 10:10:40 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5
+28/12/2022 10:10:40 AM Executando modelo googlenet
+28/12/2022 10:11:21 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.5
+28/12/2022 10:11:21 AM Executando modelo vgg16_tf
+28/12/2022 10:11:42 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5
+28/12/2022 10:11:42 AM Executando modelo resnet50_tf
+28/12/2022 10:12:20 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.5
+28/12/2022 10:12:20 AM Executando modelo alexnet
+28/12/2022 10:12:28 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5
+28/12/2022 10:12:28 AM Executando modelo vgg
+28/12/2022 10:12:42 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5
+28/12/2022 10:12:42 AM 
+
+Analisando e processando ***CricketX*** do CWT-BINARY
+28/12/2022 10:12:45 AM Iniciando preprocess, x_train
+28/12/2022 10:12:46 AM Iniciando preprocess, x_test
+28/12/2022 10:12:47 AM Executando modelo densenet
+28/12/2022 10:13:00 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.07948718219995499
+28/12/2022 10:13:00 AM Executando modelo googlenet
+28/12/2022 10:13:56 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.0743589773774147
+28/12/2022 10:13:56 AM Executando modelo vgg16_tf
+28/12/2022 10:14:19 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0743589773774147
+28/12/2022 10:14:19 AM Executando modelo resnet50_tf
+28/12/2022 10:15:07 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0743589773774147
+28/12/2022 10:15:07 AM Executando modelo alexnet
+28/12/2022 10:15:16 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.09743589907884598
+28/12/2022 10:15:16 AM Executando modelo vgg
+28/12/2022 10:15:31 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.06923077255487442
+28/12/2022 10:15:31 AM 
+
+Analisando e processando ***CricketY*** do CWT-BINARY
+28/12/2022 10:15:35 AM Iniciando preprocess, x_train
+28/12/2022 10:15:35 AM Iniciando preprocess, x_test
+28/12/2022 10:15:36 AM Executando modelo densenet
+28/12/2022 10:15:48 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.08717948943376541
+28/12/2022 10:15:48 AM Executando modelo googlenet
+28/12/2022 10:16:42 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.07948718219995499
+28/12/2022 10:16:42 AM Executando modelo vgg16_tf
+28/12/2022 10:17:04 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.07948718219995499
+28/12/2022 10:17:04 AM Executando modelo resnet50_tf
+28/12/2022 10:17:49 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.08461538702249527
+28/12/2022 10:17:49 AM Executando modelo alexnet
+28/12/2022 10:17:58 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.0743589773774147
+28/12/2022 10:17:58 AM Executando modelo vgg
+28/12/2022 10:18:18 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.08461538702249527
+28/12/2022 10:18:18 AM 
+
+Analisando e processando ***CricketZ*** do CWT-BINARY
+28/12/2022 10:18:21 AM Iniciando preprocess, x_train
+28/12/2022 10:18:22 AM Iniciando preprocess, x_test
+28/12/2022 10:18:23 AM Executando modelo densenet
+28/12/2022 10:18:36 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.0615384615957737
+28/12/2022 10:18:36 AM Executando modelo googlenet
+28/12/2022 10:19:32 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.0615384615957737
+28/12/2022 10:19:32 AM Executando modelo vgg16_tf
+28/12/2022 10:19:54 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0743589773774147
+28/12/2022 10:19:54 AM Executando modelo resnet50_tf
+28/12/2022 10:20:41 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.08461538702249527
+28/12/2022 10:20:41 AM Executando modelo alexnet
+28/12/2022 10:20:49 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.0743589773774147
+28/12/2022 10:20:49 AM Executando modelo vgg
+28/12/2022 10:21:05 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.08717948943376541
+28/12/2022 10:21:05 AM 
+
+Analisando e processando ***DiatomSizeReduction*** do CWT-BINARY
+28/12/2022 10:21:06 AM Iniciando preprocess, x_train
+28/12/2022 10:21:06 AM Iniciando preprocess, x_test
+28/12/2022 10:21:07 AM Executando modelo densenet
+28/12/2022 10:21:15 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.28431373834609985
+28/12/2022 10:21:15 AM Executando modelo googlenet
+28/12/2022 10:21:43 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.10784313827753067
+28/12/2022 10:21:43 AM Executando modelo vgg16_tf
+28/12/2022 10:21:55 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.3006536066532135
+28/12/2022 10:21:55 AM Executando modelo resnet50_tf
+28/12/2022 10:22:25 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.30718955397605896
+28/12/2022 10:22:25 AM Executando modelo alexnet
+28/12/2022 10:22:32 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.30718955397605896
+28/12/2022 10:22:32 AM Executando modelo vgg
+28/12/2022 10:22:42 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.3006536066532135
+28/12/2022 10:22:42 AM 
+
+Analisando e processando ***DistalPhalanxOutlineAgeGroup*** do CWT-BINARY
+28/12/2022 10:22:42 AM Iniciando preprocess, x_train
+28/12/2022 10:22:43 AM Iniciando preprocess, x_test
+28/12/2022 10:22:44 AM Executando modelo densenet
+28/12/2022 10:22:57 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10791366547346115
+28/12/2022 10:22:57 AM Executando modelo googlenet
+28/12/2022 10:23:45 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.4676258862018585
+28/12/2022 10:23:45 AM Executando modelo vgg16_tf
+28/12/2022 10:24:08 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.42446044087409973
+28/12/2022 10:24:08 AM Executando modelo resnet50_tf
+28/12/2022 10:24:57 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.4676258862018585
+28/12/2022 10:24:57 AM Executando modelo alexnet
+28/12/2022 10:25:06 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.4676258862018585
+28/12/2022 10:25:06 AM Executando modelo vgg
+28/12/2022 10:25:20 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.4676258862018585
+28/12/2022 10:25:20 AM 
+
+Analisando e processando ***DistalPhalanxOutlineCorrect*** do CWT-BINARY
+28/12/2022 10:25:22 AM Iniciando preprocess, x_train
+28/12/2022 10:25:23 AM Iniciando preprocess, x_test
+28/12/2022 10:25:23 AM Executando modelo densenet
+28/12/2022 10:25:37 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.4166666567325592
+28/12/2022 10:25:37 AM Executando modelo googlenet
+28/12/2022 10:27:34 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.5833333134651184
+28/12/2022 10:27:34 AM Executando modelo vgg16_tf
+28/12/2022 10:28:31 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.4166666567325592
+28/12/2022 10:28:31 AM Executando modelo resnet50_tf
+28/12/2022 10:29:47 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.4166666567325592
+28/12/2022 10:29:47 AM Executando modelo alexnet
+28/12/2022 10:30:13 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.4166666567325592
+28/12/2022 10:30:13 AM Executando modelo vgg
+28/12/2022 10:30:44 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.4166666567325592
+28/12/2022 10:30:44 AM 
+
+Analisando e processando ***DistalPhalanxTW*** do CWT-BINARY
+28/12/2022 10:30:49 AM Iniciando preprocess, x_train
+28/12/2022 10:30:50 AM Iniciando preprocess, x_test
+28/12/2022 10:30:51 AM Executando modelo densenet
+28/12/2022 10:31:07 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.30215826630592346
+28/12/2022 10:31:07 AM Executando modelo googlenet
+28/12/2022 10:32:24 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.30215826630592346
+28/12/2022 10:32:24 AM Executando modelo vgg16_tf
+28/12/2022 10:32:55 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.28057554364204407
+28/12/2022 10:32:55 AM Executando modelo resnet50_tf
+28/12/2022 10:33:52 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.30215826630592346
+28/12/2022 10:33:52 AM Executando modelo alexnet
+28/12/2022 10:34:04 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.09352517873048782
+28/12/2022 10:34:04 AM Executando modelo vgg
+28/12/2022 10:34:30 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.30215826630592346
+28/12/2022 10:34:30 AM 
+
+Analisando e processando ***DodgerLoopDay*** do CWT-BINARY
+28/12/2022 10:34:31 AM Iniciando preprocess, x_train
+28/12/2022 10:34:31 AM Iniciando preprocess, x_test
+28/12/2022 10:34:31 AM Executando modelo densenet
+28/12/2022 10:34:43 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.13750000298023224
+28/12/2022 10:34:43 AM Executando modelo googlenet
+28/12/2022 10:35:15 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.15000000596046448
+28/12/2022 10:35:15 AM Executando modelo vgg16_tf
+28/12/2022 10:35:29 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.16249999403953552
+28/12/2022 10:35:29 AM Executando modelo resnet50_tf
+28/12/2022 10:36:03 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.15000000596046448
+28/12/2022 10:36:03 AM Executando modelo alexnet
+28/12/2022 10:36:10 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.13750000298023224
+28/12/2022 10:36:10 AM Executando modelo vgg
+28/12/2022 10:36:23 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.15000000596046448
+28/12/2022 10:36:23 AM 
+
+Analisando e processando ***DodgerLoopGame*** do CWT-BINARY
+28/12/2022 10:36:24 AM Iniciando preprocess, x_train
+28/12/2022 10:36:24 AM Iniciando preprocess, x_test
+28/12/2022 10:36:24 AM Executando modelo densenet
+28/12/2022 10:36:32 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.47826087474823
+28/12/2022 10:36:32 AM Executando modelo googlenet
+28/12/2022 10:36:57 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.52173912525177
+28/12/2022 10:36:57 AM Executando modelo vgg16_tf
+28/12/2022 10:37:07 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.47826087474823
+28/12/2022 10:37:07 AM Executando modelo resnet50_tf
+28/12/2022 10:37:39 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.47826087474823
+28/12/2022 10:37:39 AM Executando modelo alexnet
+28/12/2022 10:37:47 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.52173912525177
+28/12/2022 10:37:47 AM Executando modelo vgg
+28/12/2022 10:38:02 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.47826087474823
+28/12/2022 10:38:02 AM 
+
+Analisando e processando ***DodgerLoopWeekend*** do CWT-BINARY
+28/12/2022 10:38:03 AM Iniciando preprocess, x_train
+28/12/2022 10:38:03 AM Iniciando preprocess, x_test
+28/12/2022 10:38:03 AM Executando modelo densenet
+28/12/2022 10:38:15 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.260869562625885
+28/12/2022 10:38:15 AM Executando modelo googlenet
+28/12/2022 10:38:40 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.739130437374115
+28/12/2022 10:38:40 AM Executando modelo vgg16_tf
+28/12/2022 10:38:51 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0
+28/12/2022 10:38:51 AM Executando modelo resnet50_tf
+28/12/2022 10:39:28 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 10:39:28 AM Executando modelo alexnet
+28/12/2022 10:39:35 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.739130437374115
+28/12/2022 10:39:35 AM Executando modelo vgg
+28/12/2022 10:39:44 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.739130437374115
+28/12/2022 10:39:44 AM 
+
+Analisando e processando ***Earthquakes*** do CWT-BINARY
+28/12/2022 10:39:50 AM Iniciando preprocess, x_train
+28/12/2022 10:39:50 AM Iniciando preprocess, x_test
+28/12/2022 10:39:51 AM Executando modelo densenet
+28/12/2022 10:40:06 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.7482014298439026
+28/12/2022 10:40:06 AM Executando modelo googlenet
+28/12/2022 10:41:03 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.7482014298439026
+28/12/2022 10:41:03 AM Executando modelo vgg16_tf
+28/12/2022 10:41:26 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.2517985701560974
+28/12/2022 10:41:26 AM Executando modelo resnet50_tf
+28/12/2022 10:42:10 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.2517985701560974
+28/12/2022 10:42:10 AM Executando modelo alexnet
+28/12/2022 10:42:18 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.7482014298439026
+28/12/2022 10:42:18 AM Executando modelo vgg
+28/12/2022 10:42:34 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.7482014298439026
+28/12/2022 10:42:34 AM 
+
+Analisando e processando ***ECG200*** do CWT-BINARY
+28/12/2022 10:42:35 AM Iniciando preprocess, x_train
+28/12/2022 10:42:36 AM Iniciando preprocess, x_test
+28/12/2022 10:42:36 AM Executando modelo densenet
+28/12/2022 10:42:45 AM Terminou de executar o modelo: densenet
+resultado obtido: 1.0
+28/12/2022 10:42:45 AM Executando modelo googlenet
+28/12/2022 10:43:16 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.0
+28/12/2022 10:43:16 AM Executando modelo vgg16_tf
+28/12/2022 10:43:29 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0
+28/12/2022 10:43:29 AM Executando modelo resnet50_tf
+28/12/2022 10:44:00 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 10:44:00 AM Executando modelo alexnet
+28/12/2022 10:44:06 AM Terminou de executar o modelo: alexnet
+resultado obtido: 1.0
+28/12/2022 10:44:06 AM Executando modelo vgg
+28/12/2022 10:44:16 AM Terminou de executar o modelo: vgg
+resultado obtido: 1.0
+28/12/2022 10:44:16 AM 
+
+Analisando e processando ***ECGFiveDays*** do CWT-BINARY
+28/12/2022 10:44:20 AM Iniciando preprocess, x_train
+28/12/2022 10:44:20 AM Iniciando preprocess, x_test
+28/12/2022 10:44:22 AM Executando modelo densenet
+28/12/2022 10:44:33 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5029035806655884
+28/12/2022 10:44:33 AM Executando modelo googlenet
+28/12/2022 10:45:22 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.49709638953208923
+28/12/2022 10:45:22 AM Executando modelo vgg16_tf
+28/12/2022 10:45:41 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5029035806655884
+28/12/2022 10:45:41 AM Executando modelo resnet50_tf
+28/12/2022 10:46:18 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 10:46:18 AM Executando modelo alexnet
+28/12/2022 10:46:26 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.49709638953208923
+28/12/2022 10:46:26 AM Executando modelo vgg
+28/12/2022 10:46:38 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.49709638953208923
+28/12/2022 10:46:38 AM 
+
+Analisando e processando ***EOGHorizontalSignal*** do CWT-BINARY
+28/12/2022 10:47:06 AM Iniciando preprocess, x_train
+28/12/2022 10:47:07 AM Iniciando preprocess, x_test
+28/12/2022 10:47:07 AM Executando modelo densenet
+28/12/2022 10:47:21 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.08287292718887329
+28/12/2022 10:47:21 AM Executando modelo googlenet
+28/12/2022 10:48:22 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.08563535660505295
+28/12/2022 10:48:22 AM Executando modelo vgg16_tf
+28/12/2022 10:48:47 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.08287292718887329
+28/12/2022 10:48:47 AM Executando modelo resnet50_tf
+28/12/2022 10:49:48 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.08011049777269363
+28/12/2022 10:49:48 AM Executando modelo alexnet
+28/12/2022 10:49:59 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.08287292718887329
+28/12/2022 10:49:59 AM Executando modelo vgg
+28/12/2022 10:50:23 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.08563535660505295
+28/12/2022 10:50:23 AM 
+
+Analisando e processando ***EOGVerticalSignal*** do CWT-BINARY
+28/12/2022 10:50:55 AM Iniciando preprocess, x_train
+28/12/2022 10:50:57 AM Iniciando preprocess, x_test
+28/12/2022 10:50:58 AM Executando modelo densenet
+28/12/2022 10:51:14 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.08287292718887329
+28/12/2022 10:51:14 AM Executando modelo googlenet
+28/12/2022 10:52:37 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.08563535660505295
+28/12/2022 10:52:37 AM Executando modelo vgg16_tf
+28/12/2022 10:53:11 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.08287292718887329
+28/12/2022 10:53:11 AM Executando modelo resnet50_tf
+28/12/2022 10:53:59 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.08563535660505295
+28/12/2022 10:53:59 AM Executando modelo alexnet
+28/12/2022 10:54:08 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.08287292718887329
+28/12/2022 10:54:08 AM Executando modelo vgg
+28/12/2022 10:54:25 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.08287292718887329
+28/12/2022 10:54:25 AM 
+
+Analisando e processando ***EthanolLevel*** do CWT-BINARY
+28/12/2022 10:55:24 AM Iniciando preprocess, x_train
+28/12/2022 10:55:25 AM Iniciando preprocess, x_test
+28/12/2022 10:55:26 AM Executando modelo densenet
+28/12/2022 10:55:41 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.24799999594688416
+28/12/2022 10:55:41 AM Executando modelo googlenet
+28/12/2022 10:56:57 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.24799999594688416
+28/12/2022 10:56:57 AM Executando modelo vgg16_tf
+28/12/2022 10:57:29 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.24799999594688416
+28/12/2022 10:57:29 AM Executando modelo resnet50_tf
+28/12/2022 10:58:25 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.24799999594688416
+28/12/2022 10:58:25 AM Executando modelo alexnet
+28/12/2022 10:58:36 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.24799999594688416
+28/12/2022 10:58:36 AM Executando modelo vgg
+28/12/2022 10:58:57 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.25200000405311584
+28/12/2022 10:58:57 AM 
+
+Analisando e processando ***FaceFour*** do CWT-BINARY
+28/12/2022 10:58:58 AM Iniciando preprocess, x_train
+28/12/2022 10:58:58 AM Iniciando preprocess, x_test
+28/12/2022 10:58:58 AM Executando modelo densenet
+28/12/2022 10:59:05 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.15909090638160706
+28/12/2022 10:59:05 AM Executando modelo googlenet
+28/12/2022 10:59:28 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.2954545319080353
+28/12/2022 10:59:28 AM Executando modelo vgg16_tf
+28/12/2022 10:59:37 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0
+28/12/2022 10:59:37 AM Executando modelo resnet50_tf
+28/12/2022 11:00:02 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.2954545319080353
+28/12/2022 11:00:02 AM Executando modelo alexnet
+28/12/2022 11:00:07 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.15909090638160706
+28/12/2022 11:00:07 AM Executando modelo vgg
+28/12/2022 11:00:14 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.15909090638160706
+28/12/2022 11:00:14 AM 
+
+Analisando e processando ***FiftyWords*** do CWT-BINARY
+28/12/2022 11:00:19 AM Iniciando preprocess, x_train
+28/12/2022 11:00:20 AM Iniciando preprocess, x_test
+28/12/2022 11:00:21 AM Executando modelo densenet
+28/12/2022 11:00:37 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.010989011265337467
+28/12/2022 11:00:37 AM Executando modelo googlenet
+28/12/2022 11:02:08 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.006593406666070223
+28/12/2022 11:02:08 AM Executando modelo vgg16_tf
+28/12/2022 11:02:34 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.019780220463871956
+28/12/2022 11:02:34 AM Executando modelo resnet50_tf
+28/12/2022 11:03:21 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.12527473270893097
+28/12/2022 11:03:21 AM Executando modelo alexnet
+28/12/2022 11:03:30 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.006593406666070223
+28/12/2022 11:03:30 AM Executando modelo vgg
+28/12/2022 11:03:46 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.0923076942563057
+28/12/2022 11:03:46 AM 
+
+Analisando e processando ***Fish*** do CWT-BINARY
+28/12/2022 11:03:48 AM Iniciando preprocess, x_train
+28/12/2022 11:03:49 AM Iniciando preprocess, x_test
+28/12/2022 11:03:49 AM Executando modelo densenet
+28/12/2022 11:03:57 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.16571427881717682
+28/12/2022 11:03:57 AM Executando modelo googlenet
+28/12/2022 11:04:29 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.1257142871618271
+28/12/2022 11:04:29 AM Executando modelo vgg16_tf
+28/12/2022 11:04:43 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.1599999964237213
+28/12/2022 11:04:43 AM Executando modelo resnet50_tf
+28/12/2022 11:05:12 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.1599999964237213
+28/12/2022 11:05:12 AM Executando modelo alexnet
+28/12/2022 11:05:18 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.1257142871618271
+28/12/2022 11:05:18 AM Executando modelo vgg
+28/12/2022 11:05:28 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.1428571492433548
+28/12/2022 11:05:28 AM 
+
+Analisando e processando ***FreezerSmallTrain*** do CWT-BINARY
+28/12/2022 11:05:39 AM Iniciando preprocess, x_train
+28/12/2022 11:05:39 AM Iniciando preprocess, x_test
+28/12/2022 11:05:44 AM Executando modelo densenet
+28/12/2022 11:06:01 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5
+28/12/2022 11:06:01 AM Executando modelo googlenet
+28/12/2022 11:07:27 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.5
+28/12/2022 11:07:27 AM Executando modelo vgg16_tf
+28/12/2022 11:07:59 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0
+28/12/2022 11:07:59 AM Executando modelo resnet50_tf
+28/12/2022 11:08:58 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 11:08:58 AM Executando modelo alexnet
+28/12/2022 11:09:14 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5
+28/12/2022 11:09:14 AM Executando modelo vgg
+28/12/2022 11:09:37 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5
+28/12/2022 11:09:37 AM 
+
+Analisando e processando ***Fungi*** do CWT-BINARY
+28/12/2022 11:09:39 AM Iniciando preprocess, x_train
+28/12/2022 11:09:39 AM Iniciando preprocess, x_test
+28/12/2022 11:09:39 AM Executando modelo densenet
+28/12/2022 11:09:46 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.059139784425497055
+28/12/2022 11:09:46 AM Executando modelo googlenet
+28/12/2022 11:10:08 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.10215053707361221
+28/12/2022 11:10:08 AM Executando modelo vgg16_tf
+28/12/2022 11:10:17 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.059139784425497055
+28/12/2022 11:10:17 AM Executando modelo resnet50_tf
+28/12/2022 11:10:40 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.059139784425497055
+28/12/2022 11:10:40 AM Executando modelo alexnet
+28/12/2022 11:10:44 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.037634409964084625
+28/12/2022 11:10:44 AM Executando modelo vgg
+28/12/2022 11:10:51 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.059139784425497055
+28/12/2022 11:10:51 AM 
+
+Analisando e processando ***GestureMidAirD1*** do CWT-BINARY
+28/12/2022 11:10:52 AM Iniciando preprocess, x_train
+28/12/2022 11:10:53 AM Iniciando preprocess, x_test
+28/12/2022 11:10:53 AM Executando modelo densenet
+28/12/2022 11:11:01 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.03846153989434242
+28/12/2022 11:11:01 AM Executando modelo googlenet
+28/12/2022 11:11:33 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.03846153989434242
+28/12/2022 11:11:33 AM Executando modelo vgg16_tf
+28/12/2022 11:11:46 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.03846153989434242
+28/12/2022 11:11:46 AM Executando modelo resnet50_tf
+28/12/2022 11:12:16 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.03846153989434242
+28/12/2022 11:12:16 AM Executando modelo alexnet
+28/12/2022 11:12:22 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.03846153989434242
+28/12/2022 11:12:22 AM Executando modelo vgg
+28/12/2022 11:12:32 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.03846153989434242
+28/12/2022 11:12:32 AM 
+
+Analisando e processando ***GestureMidAirD2*** do CWT-BINARY
+28/12/2022 11:12:33 AM Iniciando preprocess, x_train
+28/12/2022 11:12:34 AM Iniciando preprocess, x_test
+28/12/2022 11:12:34 AM Executando modelo densenet
+28/12/2022 11:12:42 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.03846153989434242
+28/12/2022 11:12:42 AM Executando modelo googlenet
+28/12/2022 11:13:14 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.03846153989434242
+28/12/2022 11:13:14 AM Executando modelo vgg16_tf
+28/12/2022 11:13:28 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.03846153989434242
+28/12/2022 11:13:28 AM Executando modelo resnet50_tf
+28/12/2022 11:13:58 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.03846153989434242
+28/12/2022 11:13:58 AM Executando modelo alexnet
+28/12/2022 11:14:04 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.03846153989434242
+28/12/2022 11:14:04 AM Executando modelo vgg
+28/12/2022 11:14:14 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.03846153989434242
+28/12/2022 11:14:14 AM 
+
+Analisando e processando ***GestureMidAirD3*** do CWT-BINARY
+28/12/2022 11:14:19 AM Iniciando preprocess, x_train
+28/12/2022 11:14:19 AM Iniciando preprocess, x_test
+28/12/2022 11:14:19 AM Executando modelo densenet
+28/12/2022 11:14:27 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.03846153989434242
+28/12/2022 11:14:27 AM Executando modelo googlenet
+28/12/2022 11:14:59 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.03846153989434242
+28/12/2022 11:14:59 AM Executando modelo vgg16_tf
+28/12/2022 11:15:13 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.03846153989434242
+28/12/2022 11:15:13 AM Executando modelo resnet50_tf
+28/12/2022 11:15:43 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.03846153989434242
+28/12/2022 11:15:43 AM Executando modelo alexnet
+28/12/2022 11:15:48 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.03846153989434242
+28/12/2022 11:15:48 AM Executando modelo vgg
+28/12/2022 11:15:58 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.03846153989434242
+28/12/2022 11:15:58 AM 
+
+Analisando e processando ***GesturePebbleZ1*** do CWT-BINARY
+28/12/2022 11:16:00 AM Iniciando preprocess, x_train
+28/12/2022 11:16:01 AM Iniciando preprocess, x_test
+28/12/2022 11:16:01 AM Executando modelo densenet
+28/12/2022 11:16:09 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.16860465705394745
+28/12/2022 11:16:09 AM Executando modelo googlenet
+28/12/2022 11:16:37 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.18023255467414856
+28/12/2022 11:16:37 AM Executando modelo vgg16_tf
+28/12/2022 11:16:49 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.1860465109348297
+28/12/2022 11:16:49 AM Executando modelo resnet50_tf
+28/12/2022 11:17:16 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.1860465109348297
+28/12/2022 11:17:16 AM Executando modelo alexnet
+28/12/2022 11:17:21 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.14534883201122284
+28/12/2022 11:17:21 AM Executando modelo vgg
+28/12/2022 11:17:30 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.1860465109348297
+28/12/2022 11:17:30 AM 
+
+Analisando e processando ***GesturePebbleZ2*** do CWT-BINARY
+28/12/2022 11:17:32 AM Iniciando preprocess, x_train
+28/12/2022 11:17:33 AM Iniciando preprocess, x_test
+28/12/2022 11:17:33 AM Executando modelo densenet
+28/12/2022 11:17:41 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.13924050331115723
+28/12/2022 11:17:41 AM Executando modelo googlenet
+28/12/2022 11:18:09 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.13924050331115723
+28/12/2022 11:18:09 AM Executando modelo vgg16_tf
+28/12/2022 11:18:21 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.18987341225147247
+28/12/2022 11:18:21 AM Executando modelo resnet50_tf
+28/12/2022 11:18:48 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.18987341225147247
+28/12/2022 11:18:48 AM Executando modelo alexnet
+28/12/2022 11:18:53 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.1582278460264206
+28/12/2022 11:18:53 AM Executando modelo vgg
+28/12/2022 11:19:02 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.1835443079471588
+28/12/2022 11:19:02 AM 
+
+Analisando e processando ***GunPoint*** do CWT-BINARY
+28/12/2022 11:19:03 AM Iniciando preprocess, x_train
+28/12/2022 11:19:03 AM Iniciando preprocess, x_test
+28/12/2022 11:19:03 AM Executando modelo densenet
+28/12/2022 11:19:10 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5066666603088379
+28/12/2022 11:19:10 AM Executando modelo googlenet
+28/12/2022 11:19:31 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.5066666603088379
+28/12/2022 11:19:31 AM Executando modelo vgg16_tf
+28/12/2022 11:19:40 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.4933333396911621
+28/12/2022 11:19:40 AM Executando modelo resnet50_tf
+28/12/2022 11:20:04 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.4933333396911621
+28/12/2022 11:20:04 AM Executando modelo alexnet
+28/12/2022 11:20:09 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.4933333396911621
+28/12/2022 11:20:09 AM Executando modelo vgg
+28/12/2022 11:20:16 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5066666603088379
+28/12/2022 11:20:16 AM 
+
+Analisando e processando ***GunPointAgeSpan*** do CWT-BINARY
+28/12/2022 11:20:17 AM Iniciando preprocess, x_train
+28/12/2022 11:20:17 AM Iniciando preprocess, x_test
+28/12/2022 11:20:17 AM Executando modelo densenet
+28/12/2022 11:20:26 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5063291192054749
+28/12/2022 11:20:26 AM Executando modelo googlenet
+28/12/2022 11:20:58 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.5063291192054749
+28/12/2022 11:20:58 AM Executando modelo vgg16_tf
+28/12/2022 11:21:12 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0
+28/12/2022 11:21:12 AM Executando modelo resnet50_tf
+28/12/2022 11:21:41 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.49367088079452515
+28/12/2022 11:21:41 AM Executando modelo alexnet
+28/12/2022 11:21:47 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.49367088079452515
+28/12/2022 11:21:47 AM Executando modelo vgg
+28/12/2022 11:21:57 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5063291192054749
+28/12/2022 11:21:57 AM 
+
+Analisando e processando ***GunPointMaleVersusFemale*** do CWT-BINARY
+28/12/2022 11:21:58 AM Iniciando preprocess, x_train
+28/12/2022 11:21:58 AM Iniciando preprocess, x_test
+28/12/2022 11:21:58 AM Executando modelo densenet
+28/12/2022 11:22:06 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5253164768218994
+28/12/2022 11:22:06 AM Executando modelo googlenet
+28/12/2022 11:22:38 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.474683552980423
+28/12/2022 11:22:38 AM Executando modelo vgg16_tf
+28/12/2022 11:22:51 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5253164768218994
+28/12/2022 11:22:51 AM Executando modelo resnet50_tf
+28/12/2022 11:23:20 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.474683552980423
+28/12/2022 11:23:20 AM Executando modelo alexnet
+28/12/2022 11:23:26 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.474683552980423
+28/12/2022 11:23:26 AM Executando modelo vgg
+28/12/2022 11:23:36 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5253164768218994
+28/12/2022 11:23:36 AM 
+
+Analisando e processando ***GunPointOldVersusYoung*** do CWT-BINARY
+28/12/2022 11:23:38 AM Iniciando preprocess, x_train
+28/12/2022 11:23:38 AM Iniciando preprocess, x_test
+28/12/2022 11:23:39 AM Executando modelo densenet
+28/12/2022 11:23:47 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.523809552192688
+28/12/2022 11:23:47 AM Executando modelo googlenet
+28/12/2022 11:24:19 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.4761904776096344
+28/12/2022 11:24:19 AM Executando modelo vgg16_tf
+28/12/2022 11:24:33 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.523809552192688
+28/12/2022 11:24:33 AM Executando modelo resnet50_tf
+28/12/2022 11:25:02 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.4761904776096344
+28/12/2022 11:25:02 AM Executando modelo alexnet
+28/12/2022 11:25:08 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.4761904776096344
+28/12/2022 11:25:08 AM Executando modelo vgg
+28/12/2022 11:25:18 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.4761904776096344
+28/12/2022 11:25:18 AM 
+
+Analisando e processando ***Ham*** do CWT-BINARY
+28/12/2022 11:25:19 AM Iniciando preprocess, x_train
+28/12/2022 11:25:19 AM Iniciando preprocess, x_test
+28/12/2022 11:25:19 AM Executando modelo densenet
+28/12/2022 11:25:27 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.48571428656578064
+28/12/2022 11:25:27 AM Executando modelo googlenet
+28/12/2022 11:25:55 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.5142857432365417
+28/12/2022 11:25:55 AM Executando modelo vgg16_tf
+28/12/2022 11:26:06 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.48571428656578064
+28/12/2022 11:26:06 AM Executando modelo resnet50_tf
+28/12/2022 11:26:33 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.48571428656578064
+28/12/2022 11:26:33 AM Executando modelo alexnet
+28/12/2022 11:26:37 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5142857432365417
+28/12/2022 11:26:37 AM Executando modelo vgg
+28/12/2022 11:26:46 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.48571428656578064
+28/12/2022 11:26:46 AM 
+
+Analisando e processando ***Haptics*** do CWT-BINARY
+28/12/2022 11:26:58 AM Iniciando preprocess, x_train
+28/12/2022 11:26:58 AM Iniciando preprocess, x_test
+28/12/2022 11:26:59 AM Executando modelo densenet
+28/12/2022 11:27:07 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.19155843555927277
+28/12/2022 11:27:07 AM Executando modelo googlenet
+28/12/2022 11:27:41 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.2175324708223343
+28/12/2022 11:27:41 AM Executando modelo vgg16_tf
+28/12/2022 11:27:54 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0
+28/12/2022 11:27:54 AM Executando modelo resnet50_tf
+28/12/2022 11:28:24 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 11:28:24 AM Executando modelo alexnet
+28/12/2022 11:28:30 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.19480518996715546
+28/12/2022 11:28:30 AM Executando modelo vgg
+28/12/2022 11:28:40 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.2175324708223343
+28/12/2022 11:28:40 AM 
+
+Analisando e processando ***Herring*** do CWT-BINARY
+28/12/2022 11:28:41 AM Iniciando preprocess, x_train
+28/12/2022 11:28:41 AM Iniciando preprocess, x_test
+28/12/2022 11:28:41 AM Executando modelo densenet
+28/12/2022 11:28:47 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.59375
+28/12/2022 11:28:47 AM Executando modelo googlenet
+28/12/2022 11:29:07 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.59375
+28/12/2022 11:29:07 AM Executando modelo vgg16_tf
+28/12/2022 11:29:15 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.59375
+28/12/2022 11:29:15 AM Executando modelo resnet50_tf
+28/12/2022 11:29:36 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 11:29:36 AM Executando modelo alexnet
+28/12/2022 11:29:40 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.59375
+28/12/2022 11:29:40 AM Executando modelo vgg
+28/12/2022 11:29:46 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.40625
+28/12/2022 11:29:46 AM 
+
+Analisando e processando ***HouseTwenty*** do CWT-BINARY
+28/12/2022 11:29:59 AM Iniciando preprocess, x_train
+28/12/2022 11:29:59 AM Iniciando preprocess, x_test
+28/12/2022 11:30:00 AM Executando modelo densenet
+28/12/2022 11:30:06 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5798319578170776
+28/12/2022 11:30:06 AM Executando modelo googlenet
+28/12/2022 11:30:27 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.42016807198524475
+28/12/2022 11:30:27 AM Executando modelo vgg16_tf
+28/12/2022 11:30:35 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5798319578170776
+28/12/2022 11:30:35 AM Executando modelo resnet50_tf
+28/12/2022 11:30:58 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.42016807198524475
+28/12/2022 11:30:58 AM Executando modelo alexnet
+28/12/2022 11:31:02 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5798319578170776
+28/12/2022 11:31:02 AM Executando modelo vgg
+28/12/2022 11:31:09 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5798319578170776
+28/12/2022 11:31:09 AM 
+
+Analisando e processando ***InlineSkate*** do CWT-BINARY
+28/12/2022 11:31:53 AM Iniciando preprocess, x_train
+28/12/2022 11:31:53 AM Iniciando preprocess, x_test
+28/12/2022 11:31:55 AM Executando modelo densenet
+28/12/2022 11:32:04 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.15454545617103577
+28/12/2022 11:32:04 AM Executando modelo googlenet
+28/12/2022 11:32:39 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.15272727608680725
+28/12/2022 11:32:39 AM Executando modelo vgg16_tf
+28/12/2022 11:32:53 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0
+28/12/2022 11:32:53 AM Executando modelo resnet50_tf
+28/12/2022 11:33:24 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.15454545617103577
+28/12/2022 11:33:24 AM Executando modelo alexnet
+28/12/2022 11:33:31 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.15454545617103577
+28/12/2022 11:33:31 AM Executando modelo vgg
+28/12/2022 11:33:41 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.15272727608680725
+28/12/2022 11:33:41 AM 
+
+Analisando e processando ***InsectEPGSmallTrain*** do CWT-BINARY
+28/12/2022 11:33:44 AM Iniciando preprocess, x_train
+28/12/2022 11:33:44 AM Iniciando preprocess, x_test
+28/12/2022 11:33:44 AM Executando modelo densenet
+28/12/2022 11:33:51 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.16867469251155853
+28/12/2022 11:33:51 AM Executando modelo googlenet
+28/12/2022 11:34:16 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.16867469251155853
+28/12/2022 11:34:16 AM Executando modelo vgg16_tf
+28/12/2022 11:34:27 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.4738955795764923
+28/12/2022 11:34:27 AM Executando modelo resnet50_tf
+28/12/2022 11:34:51 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.16867469251155853
+28/12/2022 11:34:51 AM Executando modelo alexnet
+28/12/2022 11:34:55 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.4738955795764923
+28/12/2022 11:34:55 AM Executando modelo vgg
+28/12/2022 11:35:03 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.4738955795764923
+28/12/2022 11:35:03 AM 
+
+Analisando e processando ***ItalyPowerDemand*** do CWT-BINARY
+28/12/2022 11:35:04 AM Iniciando preprocess, x_train
+28/12/2022 11:35:04 AM Iniciando preprocess, x_test
+28/12/2022 11:35:05 AM Executando modelo densenet
+28/12/2022 11:35:17 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5014577507972717
+28/12/2022 11:35:17 AM Executando modelo googlenet
+28/12/2022 11:36:03 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.5014577507972717
+28/12/2022 11:36:03 AM Executando modelo vgg16_tf
+28/12/2022 11:36:21 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.49854227900505066
+28/12/2022 11:36:21 AM Executando modelo resnet50_tf
+28/12/2022 11:36:57 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 11:36:57 AM Executando modelo alexnet
+28/12/2022 11:37:05 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5014577507972717
+28/12/2022 11:37:05 AM Executando modelo vgg
+28/12/2022 11:37:18 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5014577507972717
+28/12/2022 11:37:18 AM 
+
+Analisando e processando ***LargeKitchenAppliances*** do CWT-BINARY
+28/12/2022 11:37:27 AM Iniciando preprocess, x_train
+28/12/2022 11:37:27 AM Iniciando preprocess, x_test
+28/12/2022 11:37:28 AM Executando modelo densenet
+28/12/2022 11:37:38 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.3333333432674408
+28/12/2022 11:37:38 AM Executando modelo googlenet
+28/12/2022 11:38:27 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.3333333432674408
+28/12/2022 11:38:27 AM Executando modelo vgg16_tf
+28/12/2022 11:38:48 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0
+28/12/2022 11:38:48 AM Executando modelo resnet50_tf
+28/12/2022 11:39:27 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.3333333432674408
+28/12/2022 11:39:27 AM Executando modelo alexnet
+28/12/2022 11:39:35 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.3333333432674408
+28/12/2022 11:39:35 AM Executando modelo vgg
+28/12/2022 11:39:49 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.3333333432674408
+28/12/2022 11:39:49 AM 
+
+Analisando e processando ***Lightning2*** do CWT-BINARY
+28/12/2022 11:39:50 AM Iniciando preprocess, x_train
+28/12/2022 11:39:50 AM Iniciando preprocess, x_test
+28/12/2022 11:39:50 AM Executando modelo densenet
+28/12/2022 11:39:58 AM Terminou de executar o modelo: densenet
+resultado obtido: 1.0
+28/12/2022 11:39:58 AM Executando modelo googlenet
+28/12/2022 11:40:18 AM Terminou de executar o modelo: googlenet
+resultado obtido: 1.0
+28/12/2022 11:40:18 AM Executando modelo vgg16_tf
+28/12/2022 11:40:26 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 1.0
+28/12/2022 11:40:26 AM Executando modelo resnet50_tf
+28/12/2022 11:40:48 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 1.0
+28/12/2022 11:40:48 AM Executando modelo alexnet
+28/12/2022 11:40:53 AM Terminou de executar o modelo: alexnet
+resultado obtido: 1.0
+28/12/2022 11:40:53 AM Executando modelo vgg
+28/12/2022 11:40:59 AM Terminou de executar o modelo: vgg
+resultado obtido: 1.0
+28/12/2022 11:40:59 AM 
+
+Analisando e processando ***Lightning7*** do CWT-BINARY
+28/12/2022 11:41:00 AM Iniciando preprocess, x_train
+28/12/2022 11:41:00 AM Iniciando preprocess, x_test
+28/12/2022 11:41:00 AM Executando modelo densenet
+28/12/2022 11:41:06 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.09589041024446487
+28/12/2022 11:41:06 AM Executando modelo googlenet
+28/12/2022 11:41:28 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.13698630034923553
+28/12/2022 11:41:28 AM Executando modelo vgg16_tf
+28/12/2022 11:41:38 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.08219178020954132
+28/12/2022 11:41:38 AM Executando modelo resnet50_tf
+28/12/2022 11:42:01 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.09589041024446487
+28/12/2022 11:42:01 AM Executando modelo alexnet
+28/12/2022 11:42:06 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.09589041024446487
+28/12/2022 11:42:06 AM Executando modelo vgg
+28/12/2022 11:42:13 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.09589041024446487
+28/12/2022 11:42:13 AM 
+
+Analisando e processando ***Meat*** do CWT-BINARY
+28/12/2022 11:42:13 AM Iniciando preprocess, x_train
+28/12/2022 11:42:13 AM Iniciando preprocess, x_test
+28/12/2022 11:42:13 AM Executando modelo densenet
+28/12/2022 11:42:20 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.3333333432674408
+28/12/2022 11:42:20 AM Executando modelo googlenet
+28/12/2022 11:42:40 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.3333333432674408
+28/12/2022 11:42:40 AM Executando modelo vgg16_tf
+28/12/2022 11:42:48 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.3333333432674408
+28/12/2022 11:42:48 AM Executando modelo resnet50_tf
+28/12/2022 11:43:11 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.3333333432674408
+28/12/2022 11:43:11 AM Executando modelo alexnet
+28/12/2022 11:43:15 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.3333333432674408
+28/12/2022 11:43:15 AM Executando modelo vgg
+28/12/2022 11:43:22 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.3333333432674408
+28/12/2022 11:43:22 AM 
+
+Analisando e processando ***MedicalImages*** do CWT-BINARY
+28/12/2022 11:43:23 AM Iniciando preprocess, x_train
+28/12/2022 11:43:24 AM Iniciando preprocess, x_test
+28/12/2022 11:43:25 AM Executando modelo densenet
+28/12/2022 11:43:37 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.07894736528396606
+28/12/2022 11:43:37 AM Executando modelo googlenet
+28/12/2022 11:44:37 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.07894736528396606
+28/12/2022 11:44:37 AM Executando modelo vgg16_tf
+28/12/2022 11:45:01 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.04078947380185127
+28/12/2022 11:45:01 AM Executando modelo resnet50_tf
+28/12/2022 11:45:46 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.5144736766815186
+28/12/2022 11:45:46 AM Executando modelo alexnet
+28/12/2022 11:45:55 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5144736766815186
+28/12/2022 11:45:55 AM Executando modelo vgg
+28/12/2022 11:46:11 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5144736766815186
+28/12/2022 11:46:11 AM 
+
+Analisando e processando ***MiddlePhalanxOutlineAgeGroup*** do CWT-BINARY
+28/12/2022 11:46:12 AM Iniciando preprocess, x_train
+28/12/2022 11:46:12 AM Iniciando preprocess, x_test
+28/12/2022 11:46:13 AM Executando modelo densenet
+28/12/2022 11:46:22 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.18831168115139008
+28/12/2022 11:46:22 AM Executando modelo googlenet
+28/12/2022 11:47:08 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.18831168115139008
+28/12/2022 11:47:08 AM Executando modelo vgg16_tf
+28/12/2022 11:47:27 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.18831168115139008
+28/12/2022 11:47:27 AM Executando modelo resnet50_tf
+28/12/2022 11:48:05 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.18831168115139008
+28/12/2022 11:48:05 AM Executando modelo alexnet
+28/12/2022 11:48:12 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.18831168115139008
+28/12/2022 11:48:12 AM Executando modelo vgg
+28/12/2022 11:48:26 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.18831168115139008
+28/12/2022 11:48:26 AM 
+
+Analisando e processando ***MiddlePhalanxOutlineCorrect*** do CWT-BINARY
+28/12/2022 11:48:27 AM Iniciando preprocess, x_train
+28/12/2022 11:48:28 AM Iniciando preprocess, x_test
+28/12/2022 11:48:28 AM Executando modelo densenet
+28/12/2022 11:48:41 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5704467296600342
+28/12/2022 11:48:41 AM Executando modelo googlenet
+28/12/2022 11:49:43 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.5704467296600342
+28/12/2022 11:49:43 AM Executando modelo vgg16_tf
+28/12/2022 11:50:09 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.4295532703399658
+28/12/2022 11:50:09 AM Executando modelo resnet50_tf
+28/12/2022 11:50:57 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.5704467296600342
+28/12/2022 11:50:57 AM Executando modelo alexnet
+28/12/2022 11:51:07 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5704467296600342
+28/12/2022 11:51:07 AM Executando modelo vgg
+28/12/2022 11:51:25 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.5704467296600342
+28/12/2022 11:51:25 AM 
+
+Analisando e processando ***MiddlePhalanxTW*** do CWT-BINARY
+28/12/2022 11:51:26 AM Iniciando preprocess, x_train
+28/12/2022 11:51:26 AM Iniciando preprocess, x_test
+28/12/2022 11:51:26 AM Executando modelo densenet
+28/12/2022 11:51:37 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.05844155699014664
+28/12/2022 11:51:37 AM Executando modelo googlenet
+28/12/2022 11:52:22 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.27272728085517883
+28/12/2022 11:52:22 AM Executando modelo vgg16_tf
+28/12/2022 11:52:41 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.16233766078948975
+28/12/2022 11:52:41 AM Executando modelo resnet50_tf
+28/12/2022 11:53:19 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.05844155699014664
+28/12/2022 11:53:19 AM Executando modelo alexnet
+28/12/2022 11:53:27 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.27272728085517883
+28/12/2022 11:53:27 AM Executando modelo vgg
+28/12/2022 11:53:40 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.27272728085517883
+28/12/2022 11:53:40 AM 
+
+Analisando e processando ***MoteStrain*** do CWT-BINARY
+28/12/2022 11:53:42 AM Iniciando preprocess, x_train
+28/12/2022 11:53:42 AM Iniciando preprocess, x_test
+28/12/2022 11:53:44 AM Executando modelo densenet
+28/12/2022 11:53:55 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.5391373634338379
+28/12/2022 11:53:55 AM Executando modelo googlenet
+28/12/2022 11:54:41 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.4608626067638397
+28/12/2022 11:54:41 AM Executando modelo vgg16_tf
+28/12/2022 11:54:58 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.5391373634338379
+28/12/2022 11:54:58 AM Executando modelo resnet50_tf
+28/12/2022 11:55:34 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.0
+28/12/2022 11:55:34 AM Executando modelo alexnet
+28/12/2022 11:55:43 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.5391373634338379
+28/12/2022 11:55:43 AM Executando modelo vgg
+28/12/2022 11:55:56 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.4608626067638397
+28/12/2022 11:55:56 AM 
+
+Analisando e processando ***OliveOil*** do CWT-BINARY
+28/12/2022 11:55:56 AM Iniciando preprocess, x_train
+28/12/2022 11:55:56 AM Iniciando preprocess, x_test
+28/12/2022 11:55:56 AM Executando modelo densenet
+28/12/2022 11:56:02 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.30000001192092896
+28/12/2022 11:56:02 AM Executando modelo googlenet
+28/12/2022 11:56:20 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.30000001192092896
+28/12/2022 11:56:20 AM Executando modelo vgg16_tf
+28/12/2022 11:56:27 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.1666666716337204
+28/12/2022 11:56:27 AM Executando modelo resnet50_tf
+28/12/2022 11:56:48 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.1666666716337204
+28/12/2022 11:56:48 AM Executando modelo alexnet
+28/12/2022 11:56:51 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.4000000059604645
+28/12/2022 11:56:51 AM Executando modelo vgg
+28/12/2022 11:56:57 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.4000000059604645
+28/12/2022 11:56:57 AM 
+
+Analisando e processando ***OSULeaf*** do CWT-BINARY
+28/12/2022 11:57:00 AM Iniciando preprocess, x_train
+28/12/2022 11:57:01 AM Iniciando preprocess, x_test
+28/12/2022 11:57:01 AM Executando modelo densenet
+28/12/2022 11:57:10 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.1900826394557953
+28/12/2022 11:57:10 AM Executando modelo googlenet
+28/12/2022 11:57:44 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.1900826394557953
+28/12/2022 11:57:44 AM Executando modelo vgg16_tf
+28/12/2022 11:57:58 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.09504131972789764
+28/12/2022 11:57:58 AM Executando modelo resnet50_tf
+28/12/2022 11:58:30 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.13223139941692352
+28/12/2022 11:58:30 AM Executando modelo alexnet
+28/12/2022 11:58:36 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.09504131972789764
+28/12/2022 11:58:36 AM Executando modelo vgg
+28/12/2022 11:58:46 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.22727273404598236
+28/12/2022 11:58:46 AM 
+
+Analisando e processando ***PickupGestureWiimoteZ*** do CWT-BINARY
+28/12/2022 11:58:46 AM Iniciando preprocess, x_train
+28/12/2022 11:58:47 AM Iniciando preprocess, x_test
+28/12/2022 11:58:47 AM Executando modelo densenet
+28/12/2022 11:58:53 AM Terminou de executar o modelo: densenet
+resultado obtido: 0.10000000149011612
+28/12/2022 11:58:53 AM Executando modelo googlenet
+28/12/2022 11:59:13 AM Terminou de executar o modelo: googlenet
+resultado obtido: 0.10000000149011612
+28/12/2022 11:59:13 AM Executando modelo vgg16_tf
+28/12/2022 11:59:21 AM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.0
+28/12/2022 11:59:21 AM Executando modelo resnet50_tf
+28/12/2022 11:59:44 AM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.10000000149011612
+28/12/2022 11:59:44 AM Executando modelo alexnet
+28/12/2022 11:59:48 AM Terminou de executar o modelo: alexnet
+resultado obtido: 0.10000000149011612
+28/12/2022 11:59:48 AM Executando modelo vgg
+28/12/2022 11:59:54 AM Terminou de executar o modelo: vgg
+resultado obtido: 0.10000000149011612
+28/12/2022 11:59:54 AM 
+
+Analisando e processando ***PigAirwayPressure*** do CWT-BINARY
+28/12/2022 12:00:15 PM Iniciando preprocess, x_train
+28/12/2022 12:00:15 PM Iniciando preprocess, x_test
+28/12/2022 12:00:16 PM Executando modelo densenet
+28/12/2022 12:00:23 PM Terminou de executar o modelo: densenet
+resultado obtido: 0.01923076994717121
+28/12/2022 12:00:23 PM Executando modelo googlenet
+28/12/2022 12:00:51 PM Terminou de executar o modelo: googlenet
+resultado obtido: 0.01923076994717121
+28/12/2022 12:00:51 PM Executando modelo vgg16_tf
+28/12/2022 12:01:02 PM Terminou de executar o modelo: vgg16_tf
+resultado obtido: 0.01923076994717121
+28/12/2022 12:01:02 PM Executando modelo resnet50_tf
+28/12/2022 12:01:29 PM Terminou de executar o modelo: resnet50_tf
+resultado obtido: 0.01923076994717121
+28/12/2022 12:01:29 PM Executando modelo alexnet
+28/12/2022 12:01:34 PM Terminou de executar o modelo: alexnet
+resultado obtido: 0.01923076994717121
+28/12/2022 12:01:34 PM Executando modelo vgg
+28/12/2022 12:01:43 PM Terminou de executar o modelo: vgg
+resultado obtido: 0.01923076994717121
+28/12/2022 12:01:43 PM 
+
+Analisando e processando ***PigArtPressure*** do CWT-BINARY

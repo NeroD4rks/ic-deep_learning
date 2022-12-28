@@ -140,7 +140,7 @@ def transform_all_datasets_into_images(root_input, root_output):
     for colormap in cmap_list:
       start_output_path = os.path.join(root_output, img.upper()+"-"+colormap.upper())
       for dir in dirs:
-        #print(dir,img, colormap)
+        print(dir,img, colormap)
         input_path = os.path.join(root_input, dir)
         output_path = os.path.join(start_output_path, dir)
         transform_train_and_test_into_images(img, colormap, input_path, output_path)
@@ -158,4 +158,4 @@ def delete_image_dataset(img_dataset_path):
 
 
 from pathlib import Path
-transform_all_datasets_into_images(Path('D:\IC\images'), Path('D:\IC\datasets'))
+transform_all_datasets_into_images(Path('D:\ic-deep_learning\images'), Path('D:\ic-deep_learning\datasets'))

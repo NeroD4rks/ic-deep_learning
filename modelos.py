@@ -172,6 +172,7 @@ def get_model_vgg16_transfer_learning(_, num_class):
     # padrão do imagenet (que seria 224X224) temos que definir novas camadas para adequar
     model = keras.Sequential()
     # repete a primeira camada
+    model.add(BatchNormalization())
     model.add(keras.layers.UpSampling2D())
 
     # adiciona o modelo pretreinado a segunda camada
@@ -182,13 +183,17 @@ def get_model_vgg16_transfer_learning(_, num_class):
     #   Conjunto de dados grande e diferente do modelo pré-treinado
     #     Adiciona-se camadas densamente conectas depois das camadas convolucionais;
     #     Treina-se a rede neural usando os pesos da ImageNet como valores inciais.
-
+    model.add(BatchNormalization())
     model.add(Flatten())
+    model.add(BatchNormalization())
     model.add(Dense(512, activation=('relu')))
+    model.add(BatchNormalization())
     model.add(Dropout(0.2))
+    model.add(BatchNormalization())
     model.add(Dense(256, activation=('relu')))
+    model.add(BatchNormalization())
     model.add(Dropout(0.2))
-
+    model.add(BatchNormalization())
     # Como temos dez classes, a saida tem que ser correspondente
     model.add(Dense(num_class, activation=('softmax')))
 
@@ -204,18 +209,19 @@ def get_model_resnet50_transfer_learning(_, num_class):
     model = keras.Sequential()
     # repete a primeira camada
     model.add(keras.layers.UpSampling2D())
-
+    model.add(BatchNormalization())
     # adiciona o modelo pretreinado a segunda camada
     model.add(base_model)
-
+    model.add(BatchNormalization())
     model.add(Flatten())
     model.add(Dense(512, activation=('relu')))
-
+    model.add(BatchNormalization())
     model.add(Dropout(0.2))
-
+    model.add(BatchNormalization())
     model.add(Dense(256, activation=('relu')))
-
+    model.add(BatchNormalization())
     model.add(Dropout(0.2))
+    model.add(BatchNormalization())
 
     # Como temos dez classes, a saida tem que ser correspondente
     model.add(Dense(num_class, activation=('softmax')))
@@ -227,21 +233,21 @@ def get_model_alexnet(input_shape, num_class):
 
     model.add(Conv2D(filters=64, kernel_size=(3, 3), strides=(2, 2), input_shape=input_shape, activation='relu'))
     model.add(MaxPooling2D(strides=(2, 2)))
-
+    model.add(BatchNormalization())
     model.add(Conv2D(192, (3, 3), padding='same', activation='relu'))
     model.add(MaxPooling2D(strides=(2, 2)))
-
+    model.add(BatchNormalization())
     model.add(Conv2D(384, (3, 3), padding='same', activation='relu'))
     model.add(Conv2D(256, (3, 3), padding='same', activation='relu'))
     model.add(Conv2D(256, (3, 3), padding='same', activation='relu'))
     model.add(MaxPooling2D(strides=(2, 2)))
-
+    model.add(BatchNormalization())
     model.add(Flatten())
     model.add(Dense(4096, activation='relu'))
     model.add(Dropout(0.4))
-
+    model.add(BatchNormalization())
     model.add(Dense(4096, activation='relu'))
-
+    model.add(BatchNormalization())
 
     model.add(Dense(num_class, activation='softmax'))
 
@@ -252,14 +258,14 @@ def get_model_vgg(input_shape, num_class, weight_decay=0.0005):
     model = Sequential()
     
 
-    model.add(Conv2D(32, (3, 3), padding='same', input_shape=input_shape, activation='relu',
-                     kernel_regularizer=regularizers.l2(weight_decay)))
+    model.add(Conv2D(32, (3, 3), padding='same', input_shape=input_shape, activation='relu', kernel_regularizer=regularizers.l2(weight_decay)))
     model.add(Dropout(0.256))
 
     model.add(Conv2D(32, (3, 3), padding='same', kernel_regularizer=regularizers.l2(weight_decay), activation='relu'))
     model.add(BatchNormalization())
 
     model.add(MaxPooling2D(pool_size=(2, 2), strides=2))
+    model.add(BatchNormalization())
 
     model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
     model.add(Dropout(0.25))
@@ -268,6 +274,7 @@ def get_model_vgg(input_shape, num_class, weight_decay=0.0005):
     model.add(Dropout(0.15))
 
     model.add(MaxPooling2D(pool_size=(2, 2), strides=2))
+    model.add(BatchNormalization())
     model.add(Dropout(0.25))
 
     model.add(Conv2D(128, (3, 3), padding='same', activation='relu'))
@@ -280,6 +287,7 @@ def get_model_vgg(input_shape, num_class, weight_decay=0.0005):
     model.add(Conv2D(256, (3, 3), padding='same', kernel_regularizer=regularizers.l2(weight_decay), activation='relu'))
 
     model.add(MaxPooling2D(pool_size=(2, 2), strides=2))
+    model.add(BatchNormalization())
     model.add(Dropout(0.25))
 
     model.add(Conv2D(512, (3, 3), padding='same', kernel_regularizer=regularizers.l2(weight_decay), activation='relu'))
@@ -294,7 +302,7 @@ def get_model_vgg(input_shape, num_class, weight_decay=0.0005):
 
 
     model.add(MaxPooling2D(pool_size=(2, 2)))
-
+    model.add(BatchNormalization())
     model.add(Conv2D(512, (3, 3), padding='same', kernel_regularizer=regularizers.l2(weight_decay), activation='relu'))
 
     model.add(Dropout(0.4))
@@ -306,6 +314,7 @@ def get_model_vgg(input_shape, num_class, weight_decay=0.0005):
 
 
     model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(BatchNormalization())
     model.add(Dropout(0.5))
 
     model.add(Flatten())
