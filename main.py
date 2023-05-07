@@ -1,4 +1,5 @@
 import os
+import shutil
 from pathlib import Path
 from tensorflow import keras
 
@@ -23,9 +24,9 @@ def run(root_input, root_output):
                 output_path = os.path.join(start_output_path, dir)
                 transform_train_and_test_into_images(img, colormap, input_path, output_path)
 
-                dt.iteration_dataset(output_path, img, dir, colormap, shape)
+                dt.iteration_dataset(output_path, img, dir, colormap, shape, 8)
 
-                os.remove(output_path)
+                shutil.rmtree(output_path)
 
 
 current_dir = Path.cwd()
