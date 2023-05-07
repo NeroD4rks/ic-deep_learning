@@ -18,10 +18,11 @@ class DatasetsInfo:
             "vgg": get_model_vgg
         }
 
-    def iteration_dataset(self, input_root: str, representation, type_image, shape) -> None:
+    def iteration_dataset(self, input_root: str, representation, type_image, colormap, shape) -> None:
         results = []
 
-        row_to_add = {"representation": representation, "type_image": type_image}
+        row_to_add = {"representation": representation,
+                      "type_image": type_image, "colormap": colormap}
         test_folder = f"{input_root}\TEST"
         train_folder = f"{input_root}\TRAIN"
         log_debug(f"\n\nAnalisando e processando ***{type_image}*** do {representation}")
