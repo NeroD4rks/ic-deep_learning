@@ -13,12 +13,12 @@ class DatasetsInfo:
         # Passando a referencia das funções para chamar posteriormente
 
         self.models = {
-            "densenet": get_model_densenet,
-            "googlenet": get_model_googlenet,
-            "vgg16_tf": get_model_vgg16_transfer_learning,
-            "resnet50_tf": get_model_resnet50_transfer_learning,
-            "alexnet": get_model_alexnet,
-            "vgg": get_model_vgg
+            "densenet": densenet,
+            "googlenet": googlenet,
+            "vgg16_tf": vgg16_transfer_learning,
+            "resnet50_tf": resnet50_transfer_learning,
+            "alexnet": alexnet,
+            "vgg": vgg
         }
 
     def iteration_dataset(self, input_root: str, representation, type_image, colormap, shape, multiple) -> None:
