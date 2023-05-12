@@ -8,7 +8,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 
 
-def vgg16_transfer_learning(num_class):
+def vgg16_transfer_learning(_, num_class):
     # Carregando o modelo pretreinado
     # pode definir o tamanho do dataset antes, porém da erro com tamanhos muito pequenos
     base_model = tf.keras.applications.vgg16.VGG16(include_top=False, weights='imagenet', pooling='avg')
