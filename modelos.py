@@ -301,7 +301,7 @@ def densenet(input_shape, n_class):
 
 def resnet50_transfer_learning(input_shape, num_class):
     # Carregando o modelo pretreinado
-    base_model = tf.keras.applications.resnet50.ResNet50(include_top=False, input_shape=input_shape)
+    base_model = tf.keras.applications.resnet50.ResNet50(include_top=False, weights='imagenet', pooling='avg')
 
     # Como o dataset que trabalhamos tem o tamanho muito diferente do que é o
     # padrão do imagenet (que seria 224X224) temos que definir novas camadas para adequar
