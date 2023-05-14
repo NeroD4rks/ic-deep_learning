@@ -1,7 +1,8 @@
+#!/venv/bin/activate
+
 import os
 import shutil
 from pathlib import Path
-from tensorflow import keras
 
 
 from objects.datasets_Info import DatasetsInfo
@@ -24,11 +25,20 @@ def run(root_input, root_output):
                 output_path = os.path.join(start_output_path, dir)
                 transform_train_and_test_into_images(img, colormap, input_path, output_path)
 
-                dt.iteration_dataset(output_path, img, dir, colormap, shape, 8)
+                result_models = dt.iteration_dataset(output_path, img, dir, colormap, shape, 8)
+
+                for model, result_model in result_models.items():
+                    with open(f'/results/{model}.csv', 'a+') as file:
+                        file.write(f'{img};{dir};{colormap};{result_model}\n')
+                        file.close()
 
                 shutil.rmtree(output_path)
 
 
-current_dir = Path.cwd()
 
-run(current_dir / "UCRArchive_2018", current_dir / "datasets")
+if __name__ == '__main__':
+    current_dir = Path.cwd()
+    if not Path.exists(current_dir / "results/"):
+        Path.mkdir(current_dir / "results/")
+
+    run(current_dir / "UCRArchive_2018", current_dir / "datasets")

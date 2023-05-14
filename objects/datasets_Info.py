@@ -1,10 +1,14 @@
 from tensorflow import keras
 from keras.utils import np_utils
 import keras as k
-
-from modelos import *
 from auxfunc import *
 
+from modelos.alexnet import alexnet
+from modelos.googlenet import googlenet
+from modelos.lenet import lenet
+from modelos.resnet50_transfer_learning import resnet50_transfer_learning
+from modelos.vgg_transfer_learning import vgg16_transfer_learning
+from modelos.densenet import densenet
 
 class DatasetsInfo:
 
@@ -18,10 +22,10 @@ class DatasetsInfo:
             "vgg16_tf": vgg16_transfer_learning,
             "resnet50_tf": resnet50_transfer_learning,
             "alexnet": alexnet,
-            "vgg": vgg
+            "lenet": lenet
         }
 
-    def iteration_dataset(self, input_root: str, representation, type_image, colormap, shape, multiple) -> None:
+    def iteration_dataset(self, input_root: str, representation, type_image, colormap, shape, multiple):
         test_folder = Path(f"{input_root}/TEST")
         train_folder = Path(f"{input_root}/TRAIN")
         log_debug(f"\n\nAnalisando e processando ***{type_image}*** do {representation}")
@@ -49,10 +53,7 @@ class DatasetsInfo:
 
         results_model = self.execute_models(x_train, y_train, x_test, y_test, shape, n_class)
 
-        for model, result_model in results_model.items():
-            with open(f'/results/{model}.csv', 'w') as file:
-                file.write(f'{representation};{type_image};{colormap};{result_model}\n')
-                file.close()
+        return results_model
 
     def iteration_datasets(self, representation: str, shape) -> None:
         list_types = os.listdir(Path(f"datasets\{representation}"))
