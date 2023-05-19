@@ -3,6 +3,8 @@ from keras.utils import np_utils
 import keras as k
 from auxfunc import *
 
+from keras.preprocessing.image import ImageDataGenerator
+
 from modelos.alexnet import alexnet
 from modelos.googlenet import googlenet
 from modelos.lenet import lenet
@@ -110,6 +112,17 @@ class DatasetsInfo:
 
         results = {}
 
+        datagen = ImageDataGenerator(
+            rotation_range=10,
+            horizontal_flip=True,
+            width_shift_range=0.1,
+            height_shift_range=0.1,
+            shear_range=0.15,
+            zoom_range=0.1
+        )
+
+        datagen.fit(x_train)
+
         for model_name in self.models:
             log_debug(f"Executando modelo {model_name}")
             callbacks = []
@@ -119,7 +132,7 @@ class DatasetsInfo:
             model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
             history = model.fit(x=x_train, y=y_train,
                                 validation_data=(x_test, y_test),
-                                epochs=10,
+                                epochs=50,
                                 callbacks=callbacks,
                                 verbose=1)
 
