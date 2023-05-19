@@ -44,11 +44,14 @@ class DatasetsInfo:
             multiplicador = int(np.ceil(min_datasets / tamanho_atual))
 
             # Multiplicar o conjunto de dados
-            X_multiplicado = np.tile(x_train_temp, (multiplicador, 1, 1))
-            y_multiplicado = np.tile(y_train_temp, multiplicador)
+            x_multiplicado = []
+            y_multiplicado = []
+            for _ in range(multiplicador):
+                x_multiplicado.extend(x_train_temp)
+                y_multiplicado.extend(y_train_temp)
 
             # Redimensionar o conjunto de dados para o tamanho desejado
-            x_train = X_multiplicado[:min_datasets]
+            x_train = x_multiplicado[:min_datasets]
             y_train = y_multiplicado[:min_datasets]
         else:
             x_train, y_train = x_train_temp, y_train_temp
