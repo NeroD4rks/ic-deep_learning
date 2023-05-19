@@ -37,7 +37,7 @@ class DatasetsInfo:
         x_test, y_test = get_test_train(test_folder, shape)
 
         # Verificar o tamanho atual do conjunto de dados
-        tamanho_atual = x_train_temp.shape[0]
+        tamanho_atual = len(x_train_temp)
 
         if min_datasets > tamanho_atual:
             # Calcular quantas vezes o conjunto de dados precisa ser multiplicado
