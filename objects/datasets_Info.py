@@ -10,6 +10,7 @@ from modelos.resnet50_transfer_learning import resnet50_transfer_learning
 from modelos.vgg_transfer_learning import vgg16_transfer_learning
 from modelos.densenet import densenet
 
+
 class DatasetsInfo:
 
     def __init__(self):
@@ -25,22 +26,32 @@ class DatasetsInfo:
             "lenet": lenet
         }
 
-    def iteration_dataset(self, input_root: str, representation, type_image, colormap, shape, multiple):
+    def iteration_dataset(self, input_root: str, representation, type_image, colormap, shape, min_datasets):
         test_folder = Path(f"{input_root}/TEST")
         train_folder = Path(f"{input_root}/TRAIN")
-        log_debug(f"\n\nAnalisando e processando ***{type_image}*** do {representation}")
+        log_debug(f"\n\nAnalisando e processando ***{type_image}*** do {representation} de colormap {colormap}")
 
         n_class = get_n_class(train_folder)
 
-        x_train, y_train = get_test_train(train_folder, shape)
+        x_train_temp, y_train_temp = get_test_train(train_folder, shape)
         x_test, y_test = get_test_train(test_folder, shape)
 
-        for i in range(multiple):
-            x_train.extend(x_train)
-            y_train.extend(y_train)
+        # Verificar o tamanho atual do conjunto de dados
+        tamanho_atual = x_train_temp.shape[0]
 
-        x_test.extend(x_test)
-        y_test.extend(y_test)
+        if min_datasets > tamanho_atual:
+            # Calcular quantas vezes o conjunto de dados precisa ser multiplicado
+            multiplicador = int(np.ceil(min_datasets / tamanho_atual))
+
+            # Multiplicar o conjunto de dados
+            X_multiplicado = np.tile(x_train_temp, (multiplicador, 1))
+            y_multiplicado = np.tile(y_train_temp, multiplicador)
+
+            # Redimensionar o conjunto de dados para o tamanho desejado
+            x_train = X_multiplicado[:min_datasets]
+            y_train = y_multiplicado[:min_datasets]
+        else:
+            x_train, y_train = x_train_temp, y_train_temp
 
         y_train = k.utils.to_categorical(y_train, n_class)
         y_test = k.utils.to_categorical(y_test, n_class)

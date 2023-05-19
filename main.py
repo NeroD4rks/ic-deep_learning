@@ -25,7 +25,7 @@ def run(root_input, root_output):
                 output_path = os.path.join(start_output_path, dir)
                 transform_train_and_test_into_images(img, colormap, input_path, output_path)
 
-                result_models = dt.iteration_dataset(output_path, img, dir, colormap, shape, 8)
+                result_models = dt.iteration_dataset(output_path, img, dir, colormap, shape, 500)
 
                 for model, result_model in result_models.items():
                     with open(f'/results/{model}.csv', 'a+') as file:
