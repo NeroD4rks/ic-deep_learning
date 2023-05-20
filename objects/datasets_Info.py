@@ -121,20 +121,21 @@ class DatasetsInfo:
             zoom_range=0.1
         )
 
-        datagen.fit(x_train)
+        datagen.fit(x_train, augment=True)
 
+        callbacks = [keras.callbacks.LearningRateScheduler(decay, verbose=1),
+                     keras.callbacks.EarlyStopping(monitor='val_loss', patience=3), ]
         for model_name in self.models:
             log_debug(f"Executando modelo {model_name}")
-            callbacks = []
-            callbacks += [keras.callbacks.LearningRateScheduler(decay, verbose=1)]
 
             model = self.models[model_name](shape, n_class)
             model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-            history = model.fit(x=x_train, y=y_train,
-                                validation_data=(x_test, y_test),
-                                epochs=50,
-                                callbacks=callbacks,
-                                verbose=1)
+
+            _ = model.fit(datagenx=x_train, y=y_train,
+                          validation_data=(x_test, y_test),
+                          epochs=100,
+                          callbacks=callbacks,
+                          verbose=1)
 
             test_loss, test_acc = model.evaluate(x_test, y_test)
 
