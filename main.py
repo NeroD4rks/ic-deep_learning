@@ -28,12 +28,11 @@ def run(root_input, root_output):
                 result_models = dt.iteration_dataset(output_path, img, dir, colormap, shape, 500)
 
                 for model, result_model in result_models.items():
-                    with open(f'/results/{model}.csv', 'a+') as file:
+                    with open(current_dir / f'results/{model}.csv', 'a+') as file:
                         file.write(f'{img};{dir};{colormap};{result_model}\n')
                         file.close()
 
                 shutil.rmtree(output_path)
-
 
 
 if __name__ == '__main__':
