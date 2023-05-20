@@ -125,13 +125,14 @@ class DatasetsInfo:
 
         callbacks = [keras.callbacks.LearningRateScheduler(decay, verbose=1),
                      keras.callbacks.EarlyStopping(monitor='val_loss', patience=3), ]
+
         for model_name in self.models:
             log_debug(f"Executando modelo {model_name}")
 
             model = self.models[model_name](shape, n_class)
             model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-            _ = model.fit(datagenx=x_train, y=y_train,
+            _ = model.fit(x=x_train, y=y_train,
                           validation_data=(x_test, y_test),
                           epochs=100,
                           callbacks=callbacks,
