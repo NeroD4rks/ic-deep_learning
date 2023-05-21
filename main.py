@@ -1,9 +1,9 @@
-#!/venv/bin/activate
+#!../env/bin/activate
 
 import os
 import shutil
+import pandas as pd
 from pathlib import Path
-
 
 from objects.datasets_Info import DatasetsInfo
 from pibic.CLF_EXP.image_API import transform_train_and_test_into_images
@@ -11,6 +11,7 @@ from pibic.CLF_EXP.image_API import transform_train_and_test_into_images
 
 def run(root_input, root_output):
     dt = DatasetsInfo()
+    results = pd.read_csv(current_dir / f"results/alexnet.csv", delimiter=";", header=None)
     shape = (32, 32, 3)
     cmap_list = ['binary', 'plasma', 'seismic', 'terrain', 'Paired']  # Paired tem que ser maiúsculo
     img_list = ["CWT", "MTF", "RP", "GAF", "GAF_DIFF", "MTF_GAF_RP"]
@@ -20,7 +21,12 @@ def run(root_input, root_output):
         for colormap in cmap_list:
             start_output_path = os.path.join(root_output, img.upper() + "-" + colormap.upper())
             for dir in dirs:
-                print(dir, img, colormap)
+
+                var = results[(results[0] == img) & (results[2] == colormap) & (results[1] == dir)]
+                if not var.empty:
+                    print(f"Ignorando {dir, img, colormap} por já ter sido executado")
+                    continue
+
                 input_path = os.path.join(root_input, dir)
                 output_path = os.path.join(start_output_path, dir)
                 transform_train_and_test_into_images(img, colormap, input_path, output_path)
