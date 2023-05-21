@@ -1,3 +1,5 @@
+from time import sleep
+
 from tensorflow import keras
 from keras.utils import np_utils
 import keras as k
@@ -144,5 +146,5 @@ class DatasetsInfo:
             results[model_name] = test_acc
 
             log_debug(f"Terminou de executar o modelo: {model_name}\nresultado obtido: {test_acc}")
-
+            sleep(5)
         return results
