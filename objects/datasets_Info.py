@@ -126,7 +126,7 @@ class DatasetsInfo:
         datagen.fit(x_train, augment=True)
 
         callbacks = [keras.callbacks.LearningRateScheduler(decay, verbose=1),
-                     keras.callbacks.EarlyStopping(monitor='val_acc', baseline=1.0, patience=0)
+                     keras.callbacks.EarlyStopping(monitor='val_accuracy', baseline=1.0, patience=0)
                      ]
 
         for model_name in self.models:

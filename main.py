@@ -29,6 +29,7 @@ def run(root_input, root_output):
 
                 input_path = os.path.join(root_input, dir)
                 output_path = os.path.join(start_output_path, dir)
+                print(f"Transformando em imagem o {dir, img, colormap}")
                 transform_train_and_test_into_images(img, colormap, input_path, output_path)
 
                 result_models = dt.iteration_dataset(output_path, img, dir, colormap, shape, 500)
