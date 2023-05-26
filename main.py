@@ -16,12 +16,10 @@ def run(root_input, root_output):
     cmap_list = ['binary', 'plasma', 'seismic', 'terrain', 'Paired']  # Paired tem que ser maiúsculo
     img_list = ["CWT", "MTF", "RP", "GAF", "GAF_DIFF", "MTF_GAF_RP"]
     dirs = list(filter(lambda element: os.path.isdir(os.path.join(root_input, element)), os.listdir(root_input)))
-
-    for img in img_list:
-        for colormap in cmap_list:
+    for colormap in cmap_list:
+        for img in img_list:
             start_output_path = os.path.join(root_output, img.upper() + "-" + colormap.upper())
             for dir in dirs:
-
                 var = results[(results[0] == img) & (results[2] == colormap) & (results[1] == dir)]
                 if not var.empty:
                     print(f"Ignorando {dir, img, colormap} por já ter sido executado")
