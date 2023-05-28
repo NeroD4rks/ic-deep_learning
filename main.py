@@ -11,10 +11,9 @@ from pibic.CLF_EXP.image_API import transform_train_and_test_into_images
 
 def run(root_input, root_output):
     dt = DatasetsInfo()
+    results = None
     if Path.exists(Path("results/alexnet.csv")):
         results = pd.read_csv(current_dir / f"results/alexnet.csv", delimiter=";", header=None)
-    else:
-        results = pd.DataFrame()
 
     shape = (32, 32, 3)
     cmap_list = ['binary', 'plasma', 'seismic', 'terrain', 'Paired']  # Paired tem que ser maiúsculo
@@ -24,10 +23,11 @@ def run(root_input, root_output):
         for img in img_list:
             start_output_path = os.path.join(root_output, img.upper() + "-" + colormap.upper())
             for dir in dirs:
-                var = results[(results[0] == img) & (results[2] == colormap) & (results[1] == dir)]
-                if not var.empty:
-                    print(f"Ignorando {dir, img, colormap} por já ter sido executado")
-                    continue
+                if results:
+                    var = results[(results[0] == img) & (results[2] == colormap) & (results[1] == dir)]
+                    if not var.empty:
+                        print(f"Ignorando {dir, img, colormap} por já ter sido executado")
+                        continue
 
                 input_path = os.path.join(root_input, dir)
                 output_path = os.path.join(start_output_path, dir)
