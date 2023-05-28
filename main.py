@@ -11,7 +11,11 @@ from pibic.CLF_EXP.image_API import transform_train_and_test_into_images
 
 def run(root_input, root_output):
     dt = DatasetsInfo()
-    results = pd.read_csv(current_dir / f"results/alexnet.csv", delimiter=";", header=None)
+    if Path.exists(Path("results/alexnet.csv")):
+        results = pd.read_csv(current_dir / f"results/alexnet.csv", delimiter=";", header=None)
+    else:
+        results = pd.DataFrame()
+
     shape = (32, 32, 3)
     cmap_list = ['binary', 'plasma', 'seismic', 'terrain', 'Paired']  # Paired tem que ser maiúsculo
     img_list = ["CWT", "MTF", "RP", "GAF", "GAF_DIFF", "MTF_GAF_RP"]
