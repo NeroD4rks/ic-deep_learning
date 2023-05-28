@@ -14,7 +14,7 @@ def run(root_input, root_output):
     opcao = sys.argv[1]
     dt = DatasetsInfo()
     results = None
-    if Path.exists(Path("results/alexnet.csv")):
+    if Path.exists(current_dir / "results/alexnet.csv"):
         results = pd.read_csv(current_dir / f"results/alexnet.csv", delimiter=";", header=None)
 
     shape = (32, 32, 3)
