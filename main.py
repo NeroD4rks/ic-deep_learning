@@ -1,15 +1,17 @@
 #!../env/bin/activate
-
+import sys
 import os
 import shutil
 import pandas as pd
 from pathlib import Path
 
+from auxfunc import log_debug
 from objects.datasets_Info import DatasetsInfo
 from pibic.CLF_EXP.image_API import transform_train_and_test_into_images
 
 
 def run(root_input, root_output):
+    opcao = sys.argv[1]
     dt = DatasetsInfo()
     results = None
     if Path.exists(Path("results/alexnet.csv")):
@@ -17,7 +19,17 @@ def run(root_input, root_output):
 
     shape = (32, 32, 3)
     cmap_list = ['binary', 'plasma', 'seismic', 'terrain', 'Paired']  # Paired tem que ser maiúsculo
-    img_list = ["CWT", "MTF", "RP", "GAF", "GAF_DIFF", "MTF_GAF_RP"]
+
+    if opcao and opcao == "exec1":
+        img_list = ["CWT", "MTF", "RP"]
+        log_debug(f"\nExecutando as representações  {img_list}")
+    elif opcao and opcao == "exec2":
+        img_list = ["GAF", "GAF_DIFF", "MTF_GAF_RP"]
+        log_debug(f"\nExecutando as representações  {img_list}")
+    else:
+        log_debug(f"\nNenhuma opção informada, executando todas as representações")
+        img_list = ["CWT", "MTF", "RP", "GAF", "GAF_DIFF", "MTF_GAF_RP"]
+
     dirs = list(filter(lambda element: os.path.isdir(os.path.join(root_input, element)), os.listdir(root_input)))
     for colormap in cmap_list:
         for img in img_list:
