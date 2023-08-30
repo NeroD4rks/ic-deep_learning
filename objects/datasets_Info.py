@@ -1,5 +1,6 @@
 from time import sleep
 
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score
 from tensorflow import keras
 from keras.utils import np_utils
 import keras as k
@@ -22,12 +23,9 @@ class DatasetsInfo:
         # Passando a referencia das funções para chamar posteriormente
 
         self.models = {
-            "densenet": densenet,
             "googlenet": googlenet,
-            "vgg16_tf": vgg16_transfer_learning,
             "resnet50_tf": resnet50_transfer_learning,
             "alexnet": alexnet,
-            "lenet": lenet
         }
 
     def iteration_dataset(self, input_root: str, representation, type_image, colormap, shape, min_datasets):
@@ -137,14 +135,34 @@ class DatasetsInfo:
 
             _ = model.fit(x=x_train, y=y_train,
                           validation_data=(x_test, y_test),
-                          epochs=100,
+                          epochs=3,
                           callbacks=callbacks,
                           verbose=1)
 
             test_loss, test_acc = model.evaluate(x_test, y_test)
 
+            y_pred_probabilities = model.predict(x_test)  # Probabilidades de classe para cada exemplo
+
+            y_pred_class = np.argmax(y_pred_probabilities, axis=1)  # Classes previstas (índice do valor máximo)
+            y_test_class = np.argmax(y_test, axis=1)
+            # Calcular a matriz de confusão
+            confusion = confusion_matrix(y_test_class, y_pred_class)
+
+            # Calcular precisão, recall e F-measure
+            precision = precision_score(y_test_class, y_pred_class, average='weighted')
+            recall = recall_score(y_test_class, y_pred_class, average='weighted')
+            f_measure = f1_score(y_test_class, y_pred_class, average='weighted')
             results[model_name] = test_acc
 
-            log_debug(f"Terminou de executar o modelo: {model_name}\nresultado obtido: {test_acc}")
+            msg = f"\nTerminou de executar o modelo: {model_name}\n"
+            msg += f"Accuracy: {test_acc:.2f}\n"
+            msg += f"Precision: {precision:.2f}\n"
+            msg += f"Recall: {recall:.2f}\n"
+            msg += f"F-measure: {f_measure:.2f}\n"
+            msg += f"Confusion Matrix:\n {confusion}\n\n"
+
+            log_debug(msg)
+
             sleep(5)
+
         return results

@@ -11,7 +11,7 @@ from pibic.CLF_EXP.image_API import transform_train_and_test_into_images
 
 
 def run(root_input, root_output):
-    opcao = sys.argv[1]
+    opcao = sys.argv[1] if len(sys.argv) > 0 else None
     dt = DatasetsInfo()
     if Path.exists(current_dir / "results/alexnet.csv"):
         results = pd.read_csv(current_dir / f"results/alexnet.csv", delimiter=";", header=None)
@@ -19,7 +19,7 @@ def run(root_input, root_output):
         results = pd.DataFrame()
 
     shape = (32, 32, 3)
-    cmap_list = ['binary', 'plasma', 'seismic', 'terrain', 'Paired']  # Paired tem que ser maiúsculo
+    cmap_list = ['binary']  # Paired tem que ser maiúsculo
 
     if opcao and opcao == "exec1":
         img_list = ["CWT", "MTF", "RP"]
@@ -29,19 +29,18 @@ def run(root_input, root_output):
         log_debug(f"\nExecutando as representações  {img_list}")
     else:
         log_debug(f"\nNenhuma opção informada, executando todas as representações")
-        img_list = ["CWT", "MTF", "RP", "GAF", "GAF_DIFF", "MTF_GAF_RP"]
+        img_list = ["CWT", "MTF", "RP", "GAF"]
 
-    dirs = list(filter(lambda element: os.path.isdir(os.path.join(root_input, element)), os.listdir(root_input)))
-    for colormap in cmap_list:
-        for img in img_list:
-            start_output_path = os.path.join(root_output, img.upper() + "-" + colormap.upper())
-            for dir in dirs:
+    dirs = ["features_originais", "dataset_22",  "dataset_resampled"]
+    for dir in dirs:
+        for colormap in cmap_list:
+            for img in img_list:
+                start_output_path = os.path.join(root_output, img.upper() + "-" + colormap.upper())
                 if not results.empty:
                     var = results[(results[0] == img) & (results[2] == colormap) & (results[1] == dir)]
                     if not var.empty:
                         print(f"Ignorando {dir, img, colormap} por já ter sido executado")
                         continue
-
                 input_path = os.path.join(root_input, dir)
                 output_path = os.path.join(start_output_path, dir)
                 print(f"Transformando em imagem o {dir, img, colormap}")
@@ -59,7 +58,8 @@ def run(root_input, root_output):
 
 if __name__ == '__main__':
     current_dir = Path.cwd()
+
     if not Path.exists(current_dir / "results/"):
         Path.mkdir(current_dir / "results/")
 
-    run(current_dir / "UCRArchive_2018", current_dir / "datasets")
+    run(current_dir / "species_for_images", current_dir / "datasets")
