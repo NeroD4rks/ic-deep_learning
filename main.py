@@ -12,13 +12,14 @@ from pibic.CLF_EXP.image_API import transform_train_and_test_into_images
 
 def run(root_input, root_output):
     opcao = sys.argv[1]
+
     dt = DatasetsInfo()
-    if Path.exists(current_dir / "results/alexnet.csv"):
-        results = pd.read_csv(current_dir / f"results/alexnet.csv", delimiter=";", header=None)
+    if Path.exists(current_dir / "results/resultados.csv"):
+        results = pd.read_csv(current_dir / f"results/resultados.csv", delimiter=";", header=None)
     else:
         results = pd.DataFrame()
 
-    shape = (32, 32, 3)
+    shape = (128, 128, 3)
     cmap_list = ['binary', 'plasma', 'seismic', 'terrain', 'Paired']  # Paired tem que ser maiúsculo
 
     if opcao and opcao == "exec1":
@@ -37,7 +38,8 @@ def run(root_input, root_output):
             start_output_path = os.path.join(root_output, img.upper() + "-" + colormap.upper())
             for dir in dirs:
                 if not results.empty:
-                    var = results[(results[0] == img) & (results[2] == colormap) & (results[1] == dir)]
+                    #,img,colormap,dataset,arquitetura_cnn
+                    var = results[(results['img'] == img) & (results['colormap'] == colormap) & (results['dataset'] == dir)]
                     if not var.empty:
                         print(f"Ignorando {dir, img, colormap} por já ter sido executado")
                         continue
@@ -50,8 +52,8 @@ def run(root_input, root_output):
                 result_models = dt.iteration_dataset(output_path, img, dir, colormap, shape, 500)
 
                 for model, result_model in result_models.items():
-                    with open(current_dir / f'results/{model}.csv', 'a+') as file:
-                        file.write(f'{img};{dir};{colormap};{result_model}\n')
+                    with open(current_dir / f'results/resultados.csv', 'a+') as file:
+                        file.write(f'{img},{dir},{colormap},{result_model}\n')
                         file.close()
 
                 shutil.rmtree(output_path)

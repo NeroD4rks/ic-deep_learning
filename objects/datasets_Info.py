@@ -13,7 +13,7 @@ from modelos.lenet import lenet
 from modelos.resnet50_transfer_learning import resnet50_transfer_learning
 from modelos.vgg_transfer_learning import vgg16_transfer_learning
 from modelos.densenet import densenet
-
+from modelos.googlenet_transfer_learning import googlenet_transfer_learning
 
 class DatasetsInfo:
 
@@ -22,12 +22,13 @@ class DatasetsInfo:
         # Passando a referencia das funções para chamar posteriormente
 
         self.models = {
-            "densenet": densenet,
-            "googlenet": googlenet,
-            "vgg16_tf": vgg16_transfer_learning,
+            #"densenet": densenet,
+            #"googlenet": googlenet,
+            "googlenet_tf": googlenet_transfer_learning,
+            #"vgg16_tf": vgg16_transfer_learning,
             "resnet50_tf": resnet50_transfer_learning,
-            "alexnet": alexnet,
-            "lenet": lenet
+            #"alexnet": alexnet,
+            #"lenet": lenet
         }
 
     def iteration_dataset(self, input_root: str, representation, type_image, colormap, shape, min_datasets):
@@ -114,20 +115,10 @@ class DatasetsInfo:
 
         results = {}
 
-        datagen = ImageDataGenerator(
-            rotation_range=10,
-            horizontal_flip=True,
-            width_shift_range=0.1,
-            height_shift_range=0.1,
-            shear_range=0.15,
-            zoom_range=0.1
-        )
-
-        datagen.fit(x_train, augment=True)
-
         callbacks = [keras.callbacks.LearningRateScheduler(decay, verbose=1),
                      #keras.callbacks.EarlyStopping(monitor='val_accuracy', baseline=1.0, patience=0)
-                     ]
+                     keras.callbacks.EarlyStopping(monitor='val_accuracy', patience=10)                     
+]
 
         for model_name in self.models:
             log_debug(f"Executando modelo {model_name}")
